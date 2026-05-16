@@ -35,10 +35,10 @@ The goal of this repository is to present my experience in:
 | Test Management | Jira |
 | API Testing | Postman |
 | Database Testing | SQL |
-| Automation | Playwright |
+| Automation | Playwright, Cypress |
 | Version Control | Git, GitHub |
 | CI/CD | GitHub Actions |
-| Browser Tools | Chrome DevTools |
+| Other | Chrome DevTools |
 
 ---
 
