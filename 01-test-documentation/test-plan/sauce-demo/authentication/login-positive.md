@@ -24,7 +24,7 @@ https://www.saucedemo.com
 | L011 | Verify user can add items to the shopping cart | 1. User is logged in 2. Products are available 3. Shopping cart is working correctly | 1. Add products to the cart 2. Check if the products are added correctly | Products are visible in the shopping cart | High |
 | L012 | Verify added items stay in the cart after page refresh | 1. User is logged in 2. Products are added to the cart | 1. Login successfully 2. Add products to the cart 3. Refresh page 4. Check if products are still visible in the cart | Products are visible in the shopping cart | Medium |
 | L013 | Verify user remains logged in after page refresh | User is logged in | 1. Refresh page 2. Check if authenticated content is visible and user is still logged in | User is logged in | Medium |
-| L014 | Verify successful log out | User is logged in | 1. Successfuly log out 2. enter login page | User sees login page, has no access to authenticated content and is logged out. | High |
+| L014 | Verify successful log out | User is logged in | 1. Successfuly log out | User sees login page, has no access to authenticated content and is logged out | High |
 
 ---
 
