@@ -12,7 +12,7 @@ https://www.saucedemo.com
 
 | TC ID | Test Scenario | Preconditions | Test Steps | Expected Result | Priority |
 |---|---|---|---|---|---|
-| L001 | Verify successful login using valid credentials | User is on the Login page | 1. Enter valid username and password 3. Click Login button | User is logged in and inventory page is displayed | High |
+| L001 | Verify successful login using valid credentials | User is on the Login page | 1. Enter valid username and password\ 2. Click Login button | User is logged in and inventory page is displayed | High |
 | L002 | Verify authenticated user session is maintained after login | User is on the Login page | 1. Enter valid username and password 2. Click Login button 3. Verify authenticated content is visible and functional  | Authenticated content is visible and functional | High |
 | L003 | Verify product list visibility after successful login | User is on the Login page | 1. Enter valid username and password 2. Click Login button 3. Verify product list visibility | Product list is displayed | High |
 | L004 | Verify user is redirected to the inventory page after login | User is on the Login page | 1. Enter valid username and password 2. Click Login button | User is redirected to the inventory page | High |
