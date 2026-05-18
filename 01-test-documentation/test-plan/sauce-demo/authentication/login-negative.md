@@ -1,7 +1,6 @@
+# Authentication Test Cases — Positive Scenarios
 
-# Authentication Test Cases — Negative Scenarios
-
-The purpose of these test cases is to validate negative authentication scenarios and verify that unauthorized access to the application is prevented.
+This document contains positive test scenarios for the SauceDemo authentication functionality.
 
 Application under test:
 
@@ -9,41 +8,37 @@ https://www.saucedemo.com
 
 ---
 
-# Test Cases
+# Test Structure
 
-L001 — Empty username <br>
-L002 — Empty password <br>
-L003 — Empty username and password <br>
-L004 — Single whitespace character <br>
-L005 — Multiple whitespace characters <br>
-L006 — Invalid username <br>
-L007 — Invalid password <br>
-L008 — Invalid username and password <br>
-L009 — Whitespace characters in username <br>
-L010 — Whitespace characters in password <br>
-L011 — Uppercase username <br>
-L012 — Uppercase password <br>
-L013 — Special characters only <br>
-L014 — SQL injection input <br>
-L015 — Locked out user <br>
+L001 — Successful login with valid credentials <br>
+L002 — Authenticated content visibility after login <br>
+L003 — Product list visibility after login <br>
+L004 — Redirect to inventory page after login <br>
+L005 — Redirected URL verification after login <br>
+L006 — Inventory page title verification after login <br>
+L007 — Navigation elements visibility and functionality after login <br>
+L008 — Add items to shopping cart after login <br>
+L009 — Session persistence after page refresh <br>
+L010 — Successful logout <br>
+L011 — Page load time after login <br>
+
+---
+
+# Test Cases
 
 | TC ID | Test Scenario | Preconditions | Test Steps | Expected Result | Priority |
 |---|---|---|---|---|---|
-| L001 | Verify user cannot log in with an empty username | User is on the login page | 1. Leave username field empty<br>2. Enter secret_sauce password<br>3. Click Login button | User is not logged in and validation message for missing username is displayed | High |
-| L002 | Verify user cannot log in with an empty password | User is on the login page | 1. Enter standard_user username<br>2. Leave password field empty<br>3. Click Login button | User is not logged in and validation message for missing password is displayed | High |
-| L003 | Verify user cannot log in with both empty username and password | User is on the login page | 1. Leave username and password fields empty<br>2. Click Login button | User is not logged in and validation message for missing username is displayed | High |
-| L004 | Verify user cannot log in with a single whitespace character | User is on the login page | 1. Enter a single whitespace character in both username and password fields<br>2. Click Login button | User is not logged in and validation message is displayed | High |
-| L005 | Verify user cannot log in with multiple whitespace characters | User is on the login page | 1. Enter multiple whitespace characters in both username and password fields<br>2. Click Login button | User is not logged in and validation message is displayed | High |
-| L006 | Verify user cannot log in with invalid username | User is on the login page | 1. Enter invalid username<br>2. Enter secret_sauce password<br>3. Click Login button | User is not logged in and error message for invalid credentials is displayed | High |
-| L007 | Verify user cannot log in with invalid password | User is on the login page | 1. Enter standard_user username<br>2. Enter invalid password<br>3. Click Login button | User is not logged in and error message for invalid credentials is displayed | High |
-| L008 | Verify user cannot log in with invalid username and invalid password | User is on the login page | 1. Enter invalid username<br>2. Enter invalid password<br>3. Click Login button | User is not logged in and error message for invalid credentials is displayed | High |
-| L009 | Verify user cannot log in with whitespace characters in the username | User is on the login page | 1. Enter standard_user username with whitespace characters between username characters<br>2. Enter secret_sauce password<br>3. Click Login button | User is not logged in and error message for invalid credentials is displayed | High |
-| L010 | Verify user cannot log in with whitespace characters in the password | User is on the login page | 1. Enter standard_user username<br>2. Enter secret_sauce password with whitespace characters between password characters<br>3. Click Login button | User is not logged in and error message for invalid credentials is displayed | High |
-| L011 | Verify user cannot log in with uppercase username | User is on the login page | 1. Enter STANDARD_USER username<br>2. Enter secret_sauce password<br>3. Click Login button | User is not logged in and error message for invalid credentials is displayed | High |
-| L012 | Verify user cannot log in with uppercase password | User is on the login page | 1. Enter standard_user username<br>2. Enter SECRET_SAUCE password<br>3. Click Login button | User is not logged in and error message for invalid credentials is displayed | High |
-| L013 | Verify user cannot log in with special characters only | User is on the login page | 1. Enter special characters in username and password fields<br>2. Click Login button | User is not logged in and error message for invalid credentials is displayed | High |
-| L014 | Verify user cannot log in using SQL injection input | User is on the login page | 1. Enter SQL injection strings in the username and password fields<br>2. Click Login button | User is not logged in, SQL input is not executed, and the application handles the input securely | Critical |
-| L015 | Verify locked out user cannot log in | User is on the login page | 1. Enter locked_out_user username<br>2. Enter secret_sauce password<br>3. Click Login button | User is not logged in and locked out error message is displayed | Critical |
+| L001 | Verify successful login using valid credentials | User is on the login page | 1. Enter standard_user username<br>2. Enter secret_sauce password<br>3. Click Login button | User is logged in and inventory page is displayed | High |
+| L002 | Verify authenticated content is visible after login | User is on the login page | 1. Enter standard_user username<br>2. Enter secret_sauce password<br>3. Click Login button<br>4. Verify authenticated content is visible and functional | Authenticated content is visible and functional, user session is active | High |
+| L003 | Verify product list visibility after successful login | User is on the login page | 1. Enter standard_user username<br>2. Enter secret_sauce password<br>3. Click Login button<br>4. Wait for the inventory page to load<br>5. Verify product list visibility | Product list is displayed | High |
+| L004 | Verify user is redirected to the inventory page after login | User is on the login page | 1. Enter standard_user username<br>2. Enter secret_sauce password<br>3. Click Login button | User is redirected to the inventory page | High |
+| L005 | Verify redirected URL after login | User is on the login page | 1. Enter standard_user username<br>2. Enter secret_sauce password<br>3. Click Login button<br>4. Verify URL of redirected page | Displayed URL matches inventory page URL | Medium |
+| L006 | Verify inventory page title after login | User is on the login page | 1. Enter standard_user username<br>2. Enter secret_sauce password<br>3. Click Login button<br>4. Verify page title | Page title is displayed correctly | Medium |
+| L007 | Verify navigation elements are visible and functional after login | User is logged in | 1. Open navigation menu<br>2. Verify navigation menu elements are visible<br>3. Click visible navigation menu elements | Navigation menu elements are visible and functioning correctly | Medium |
+| L008 | Verify user can add items to the shopping cart after login | 1. User is logged in<br>2. User is on the inventory page<br>3. Products are available<br>4. Shopping cart is working correctly | 1. Add products to the cart<br>2. Click shopping cart icon<br>3. Verify the products are added correctly | Added products are visible in the shopping cart | High |
+| L009 | Verify user remains logged in after page refresh | User is logged in | 1. Refresh page<br>2. Verify authenticated content is visible and user is still logged in | User remains logged in and authenticated content is visible | Medium |
+| L010 | Verify successful logout | User is logged in | 1. Navigate to Logout button<br>2. Click Logout button | User is redirected to login page, cannot access authenticated content, and is logged out | High |
+| L011 | Verify page load time after login | User is on the login page | 1. Enter standard_user username<br>2. Enter secret_sauce password<br>3. Click Login button | User is redirected to the inventory page and logged in, page load time is under 3 seconds | Medium |
 
 ---
 
@@ -57,4 +52,6 @@ L015 — Locked out user <br>
 
 # Notes
 
-The purpose of these test cases is to validate the main negative authentication flow and verify successful access to the application.
+The purpose of these test cases is to validate the main positive authentication flow and verify successful access to the application.
+
+Additional negative and edge-case scenarios will be covered in separate documentation files.
