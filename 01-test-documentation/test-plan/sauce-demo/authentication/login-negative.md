@@ -28,6 +28,4 @@ https://www.saucedemo.com
 
 # Notes
 
-The purpose of these test cases is to validate the main positive authentication flow and verify successful access to the application.
-
-Additional negative and edge-case scenarios will be covered in separate documentation files.
+The purpose of these test cases is to validate the main negative authentication flow and verify successful access to the application.
