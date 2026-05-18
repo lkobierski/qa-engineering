@@ -27,7 +27,7 @@ https://www.saucedemo.com
 | L012 | Verify user cannot log in with uppercase username | User is on the login page | 1. Enter valid username using uppercase characters <br>2. Enter valid password<br>3. Click Login button | User is not logged in and validation message is displayed | High |
 | L013 | Verify user cannot log in with uppercase password | User is on the login page | 1. Enter valid username<br>2. Enter valid password using uppercase characters<br>3. Click Login button | User is not logged in and validation message is displayed | High |
 | L014 | Verify user cannot log in with special characters only | User is on the login page | 1. Enter special characters in username and password fields <br>2. Click Login button | User is not logged in and validation message is displayed | High |
-
+| L015 | Verify locked out user cannot log in | User is on the login page | 1. Enter locked out username and password <br>2. Click Login button | User is not logged in and validation message is displayed | High |
 
 ---
 
