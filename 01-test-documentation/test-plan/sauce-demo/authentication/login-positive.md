@@ -1,6 +1,6 @@
-# Authentication Test Cases — Positive Scenarios
+# Authentication Test Cases — Negative Scenarios
 
-This document contains positive test scenarios for the SauceDemo authentication functionality.
+This document contains negative test scenarios for the SauceDemo authentication functionality.
 
 Application under test:
 
