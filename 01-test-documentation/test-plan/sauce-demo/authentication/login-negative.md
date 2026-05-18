@@ -10,21 +10,22 @@ https://www.saucedemo.com
 ---
 
 # Test Cases
-L001 — Empty username
-L002 — Empty password
-L003 — Empty username and password
-L004 — Single whitespace character
-L005 — Multiple whitespace characters
-L006 — Invalid username
-L007 — Invalid password
-L008 — Invalid username and password
-L009 — Whitespace characters in username
-L010 — Whitespace characters in password
-L011 — Uppercase username
-L012 — Uppercase password
-L013 — Special characters only
-L014 — SQL injection input
-L015 — Locked out user
+
+L001 — Empty username <br>
+L002 — Empty password <br>
+L003 — Empty username and password <br>
+L004 — Single whitespace character <br>
+L005 — Multiple whitespace characters <br>
+L006 — Invalid username <br>
+L007 — Invalid password <br>
+L008 — Invalid username and password <br>
+L009 — Whitespace characters in username <br>
+L010 — Whitespace characters in password <br>
+L011 — Uppercase username <br>
+L012 — Uppercase password <br>
+L013 — Special characters only <br>
+L014 — SQL injection input <br>
+L015 — Locked out user <br>
 
 | TC ID | Test Scenario | Preconditions | Test Steps | Expected Result | Priority |
 |---|---|---|---|---|---|
