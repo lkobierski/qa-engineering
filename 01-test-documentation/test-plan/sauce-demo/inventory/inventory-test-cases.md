@@ -8,7 +8,7 @@ https://www.saucedemo.com
 
 ---
 
-# Test Structure
+# Test Scenarios
 
 I001 — Product images visibility on inventory page<br>
 I002 — Product titles visibility on inventory page<br>

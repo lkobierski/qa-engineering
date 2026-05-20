@@ -8,7 +8,7 @@ https://www.saucedemo.com
 
 ---
 
-# Test Structure
+# Test Scenarios
 
 L001 — Successful login with valid credentials <br>
 L002 — Authenticated content visibility after login <br>
