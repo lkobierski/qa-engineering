@@ -68,7 +68,7 @@ Sorting option remains unchanged after page refresh and products are sorted acco
 
 # Actual Result
 
-Selected sorting option resets to default value and products are no longer sorted according to the previous selection.
+Selected sorting option resets to default and products are no longer sorted according to the previous selection.
 
 ---
 
@@ -78,6 +78,6 @@ Open
 
 # Attachments
 
-![BUG-002 Video](./attachments/bug-002.mp4)
+![BUG-002 Recording](./attachments/bug-002.mp4)
 
 ---
