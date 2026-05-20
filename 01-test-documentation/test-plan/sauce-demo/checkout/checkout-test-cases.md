@@ -10,15 +10,15 @@ https://www.saucedemo.com
 
 # Test Structure
 
-CH001 — Checkout with single product
-CH002 — Checkout with multiple products
-CH003 — Correct products displayed on checkout overview page
-CH004 — Order confirmation page after successful checkout
-CH005 — Empty First Name field validation
-CH006 — Empty Last Name field validation
-CH007 — Empty Postal Code field validation
-CH008 — Cancel button redirects to shopping cart
-CH009 — Valid input data accepted in checkout form
+CH001 — Checkout with single product<br>
+CH002 — Checkout with multiple products<br>
+CH003 — Correct products displayed on checkout overview page<br>
+CH004 — Order confirmation page after successful checkout<br>
+CH005 — Empty First Name field validation<br>
+CH006 — Empty Last Name field validation<br>
+CH007 — Empty Postal Code field validation<br>
+CH008 — Cancel button redirects to shopping cart<br>
+CH009 — Valid input data accepted in checkout form<br>
 
 ---
 
