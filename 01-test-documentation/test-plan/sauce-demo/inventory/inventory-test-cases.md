@@ -10,15 +10,15 @@ https://www.saucedemo.com
 
 # Test Structure
 
-I001 — Verify product images are visible on the inventory page  
-I002 — Verify product titles are visible on the inventory page  
-I003 — Verify product prices are visible on the inventory page  
-I004 — Verify products can be sorted by name from A to Z  
-I005 — Verify products can be sorted by name from Z to A  
-I006 — Verify products can be sorted by price from low to high  
-I007 — Verify products can be sorted by price from high to low  
-I008 — Verify inventory page layout consistency  
-I009 — Verify inventory page is accessible after page refresh  
+I001 — Product images visibility on inventory page
+I002 — Product titles visibility on inventory page
+I003 — Product prices visibility on inventory page
+I004 — Sorting by name A to Z
+I005 — Sorting by name Z to A
+I006 — Sorting by price low to high
+I007 — Sorting by price high to low
+I008 — Inventory page layout consistency
+I009 — Inventory page accessibility after page refresh
 
 ---
 
