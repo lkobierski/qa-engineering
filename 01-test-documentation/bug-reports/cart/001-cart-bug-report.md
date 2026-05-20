@@ -1,4 +1,4 @@
-# BUG-CART-001 — Shopping cart page returns 503 error after adding invalid product
+# BUG-CART-001 — Shopping cart page returns 503 error after adding an invalid product
 ## Application under test
 https://www.saucedemo.com
 

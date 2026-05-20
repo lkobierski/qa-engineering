@@ -53,5 +53,3 @@ C011 — Cart badge update after removing product<br>
 # Notes
 
 The purpose of these test cases is to validate the main shopping cart functionality, product management, cart persistence and checkout navigation flow.
-
-Additional checkout and edge-case scenarios will be covered in separate documentation files.
