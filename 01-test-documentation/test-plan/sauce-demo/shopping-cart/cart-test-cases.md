@@ -10,17 +10,17 @@ https://www.saucedemo.com
 
 # Test Structure
 
-C001 — Adding single product to cart
-C002 — Adding multiple products to cart
-C003 — Removing product from cart
-C004 — Proceeding to checkout with single product
-C005 — Proceeding to checkout with multiple products
-C006 — Continue Shopping button redirects to inventory page
-C007 — Product price match between cart and inventory page
-C008 — Product titles and descriptions match between cart and inventory page
-C009 — Cart badge quantity matches number of added products
-C010 — Products persistence in cart after page refresh
-C011 — Cart badge update after removing product
+C001 — Adding single product to cart <br>
+C002 — Adding multiple products to cart<br>
+C003 — Removing product from cart<br>
+C004 — Proceeding to checkout with single product<br>
+C005 — Proceeding to checkout with multiple products<br>
+C006 — Continue Shopping button redirects to inventory page<br>
+C007 — Product price match between cart and inventory page<br>
+C008 — Product titles and descriptions match between cart and inventory page<br>
+C009 — Cart badge quantity matches number of added products<br>
+C010 — Products persistence in cart after page refresh<br>
+C011 — Cart badge update after removing product<br>
 
 ---
 
