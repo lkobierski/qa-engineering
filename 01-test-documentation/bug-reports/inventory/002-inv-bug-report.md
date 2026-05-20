@@ -1,4 +1,4 @@
-# BUG-INVENTORY-001 — Product titles and descriptions display raw JavaScript code on the inventory page
+# BUG-INVENTORY-002 — Product sorting resets to default after page refresh
 
 ## Application under test
 
@@ -8,7 +8,7 @@ https://www.saucedemo.com
 
 # Bug Summary
 
-Raw JavaScript code is displayed within product titles and descriptions on the inventory page instead of valid product information.
+Selected product sorting option resets to default after page refresh.
 
 ---
 
@@ -24,13 +24,13 @@ Raw JavaScript code is displayed within product titles and descriptions on the i
 
 # Severity
 
-Medium
+Low
 
 ---
 
 # Priority
 
-High
+Medium
 
 ---
 
@@ -45,26 +45,30 @@ High
 # Preconditions
 
 1. User is logged in
-2. Products are visible on the inventory page
+2. Inventory page is accessible
 
 ---
 
 # Steps to Reproduce
 
 1. Open inventory page
-2. Verify displayed product titles and descriptions
+2. Navigate to product sorting option
+3. Select any sorting option other than default
+4. Verify products are sorted according to the selected option
+5. Refresh page
+6. Verify the sorting option and products order
 
 ---
 
 # Expected Result
 
-Product titles and descriptions contain valid product information and are rendered correctly without raw code visible.
+Sorting option remains unchanged after page refresh and products are sorted accordingly.
 
 ---
 
 # Actual Result
 
-Raw JavaScript code is visible within some product titles and descriptions on the inventory page instead of valid product information.
+Selected sorting option resets to default value and products are no longer sorted according to the previous selection.
 
 ---
 
@@ -74,6 +78,6 @@ Open
 
 # Attachments
 
-![BUG-001 Screenshot](./attachments/bug-001.png)
+![BUG-002 Video](./attachments/bug-002.mp4)
 
 ---
