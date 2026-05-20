@@ -19,7 +19,7 @@ L006 — Navigation elements visibility and functionality after login <br>
 L007 — Session persistence after page refresh <br>
 L008 — Successful logout <br>
 L009 — Page load time after login <br>
-
+L010 — Restricted access to authenticated pages after logout <br>
 ---
 
 # Test Cases
@@ -35,7 +35,7 @@ L009 — Page load time after login <br>
 | L007 | Verify user remains logged in after page refresh | User is logged in | 1. Refresh page<br>2. Verify authenticated content is visible and user is still logged in | User remains logged in and authenticated content is visible | Medium |
 | L008 | Verify successful logout | User is logged in | 1. Navigate to Logout button<br>2. Click Logout button | User is redirected to login page, cannot access authenticated content, and is logged out | High |
 | L009 | Verify page load time after login | User is on the login page | 1. Enter standard_user username<br>2. Enter valid password<br>3. Click Login button | User is redirected to the inventory page and logged in, page load time is under 3 seconds | Medium |
-
+| L010 | Verify user cannot access authenticated pages after logout | User is logged in | 1. Click Logout button<br>2. After redirect to login page, manually enter inventory page URL (`/inventory.html`) in browser<br>3. Press Enter | User is redirected back to login page or access is denied, authenticated content is not accessible | High |
 ---
 
 # Test Data
