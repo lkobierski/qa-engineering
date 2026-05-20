@@ -6,8 +6,7 @@ https://www.saucedemo.com
 
 # Bug Summary
 
-User cannot add every product to the shopping cart. 
-"Add to cart" button does not respond for some of the products displayed on the inventory page.
+Some products cannot be added to the shopping cart because corresponding "Add to cart" buttons do not respond.
 
 ---
 
@@ -63,7 +62,7 @@ All selected products are added to the shopping cart and corresponding "Add to c
 
 # Actual Result
 
-Some "Add to cart" buttons do not respond and corresponding products cannot be added to the shoping cart.
+Some "Add to cart" buttons do not respond and corresponding products cannot be added to the shopping cart.
 
 ---
 
