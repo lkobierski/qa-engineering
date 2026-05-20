@@ -73,6 +73,6 @@ Open
 
 # Attachments
 
-![BUG-001 Screenshot](./attachments/bug-001.png)
+![INV-BUG-001 Screenshot](./attachments/inv-bug-001.png)
 
 ---

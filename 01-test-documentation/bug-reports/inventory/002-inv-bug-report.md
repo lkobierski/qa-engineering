@@ -77,6 +77,6 @@ Open
 
 # Attachments
 
-[BUG-002 Recording](./attachments/bug-002.mp4)
+[INV-BUG-002 Recording](./attachments/inv-bug-002.mp4)
 
 ---
