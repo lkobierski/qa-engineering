@@ -74,4 +74,6 @@ Open
 
 ![BUG-004 Screenshot](./attachments/bug-004.png)
 
+![BUG-004-1 Screenshot](./attachments/bug-004-1.png)
+
 ---
