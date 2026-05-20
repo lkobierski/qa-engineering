@@ -78,6 +78,6 @@ Open
 
 # Attachments
 
-![BUG-002 Recording](./attachments/bug-002.mp4)
+[BUG-002 Recording](./attachments/bug-002.mp4)
 
 ---
