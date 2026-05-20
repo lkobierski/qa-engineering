@@ -49,3 +49,4 @@ I009 — Inventory page accessibility after page refresh
 # Notes
 
 The purpose of these test cases is to validate inventory page visibility, sorting functionality and basic UI consistency.
+
