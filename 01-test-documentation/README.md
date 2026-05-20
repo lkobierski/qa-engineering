@@ -2,7 +2,7 @@
 
 This section contains manual QA documentation created for testing practice and portfolio purposes.
 
-The goal of this section is to demonstrate practical software testing skills, test design techniques, documentation quality, and understanding of real QA workflows.
+The goal of this section is to demonstrate practical software testing skills, test design techniques, documentation quality, and understanding of QA workflows.
 
 ---
 
