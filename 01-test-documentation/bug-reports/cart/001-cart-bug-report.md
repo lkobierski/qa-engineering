@@ -65,7 +65,7 @@ User is redirected to functional shopping cart page and selected product is visi
 
 Shopping cart page is unavailable and multiple errors are displayed in the browser console, including error codes 404, 503 (Service Unavailable), index.js TypeError, CORS error.
 
-# Error log
+# Error Log
 
 1. (Service Unavailable) <br>
 2. TypeError: Cannot read properties of undefined (reading 'id') <br>
