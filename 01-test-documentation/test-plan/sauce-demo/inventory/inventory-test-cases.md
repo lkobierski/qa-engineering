@@ -10,15 +10,15 @@ https://www.saucedemo.com
 
 # Test Structure
 
-I001 — Product images visibility on inventory page
-I002 — Product titles visibility on inventory page
-I003 — Product prices visibility on inventory page
-I004 — Sorting by name A to Z
-I005 — Sorting by name Z to A
-I006 — Sorting by price low to high
-I007 — Sorting by price high to low
-I008 — Inventory page layout consistency
-I009 — Inventory page accessibility after page refresh
+I001 — Product images visibility on inventory page<br>
+I002 — Product titles visibility on inventory page<br>
+I003 — Product prices visibility on inventory page<br>
+I004 — Sorting by name A to Z<br>
+I005 — Sorting by name Z to A<br>
+I006 — Sorting by price low to high<br>
+I007 — Sorting by price high to low<br>
+I008 — Inventory page layout consistency<br>
+I009 — Inventory page accessibility after page refresh<br>
 
 ---
 
@@ -50,3 +50,4 @@ I009 — Inventory page accessibility after page refresh
 
 The purpose of these test cases is to validate inventory page visibility, sorting functionality and basic UI consistency.
 
+<br>
