@@ -20,6 +20,7 @@ L007 — Session persistence after page refresh <br>
 L008 — Successful logout <br>
 L009 — Page load time after login <br>
 L010 — Restricted access to authenticated pages after logout <br>
+
 ---
 
 # Test Cases
