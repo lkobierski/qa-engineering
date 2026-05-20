@@ -17,6 +17,7 @@ The following areas will be tested:
 - Add to cart functionality
 - Remove from cart functionality
 - Shopping cart behavior
+- Session management
 - Checkout process
 - Form validation
 - Navigation between pages
@@ -35,7 +36,7 @@ The following testing types will be performed:
 - Exploratory Testing
 - Negative Testing
 - UI Testing
-
+- Validation Testing
 ---
 
 # 4. Features to be Tested
@@ -70,8 +71,7 @@ Testing will be performed manually using predefined test cases and exploratory t
 
 The strategy includes:
 
-- positive scenarios
-- negative scenarios
+- positive and negative test scenarios
 - validation testing
 - business-critical user flows
 - edge case analysis
