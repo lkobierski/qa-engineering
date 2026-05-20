@@ -8,7 +8,7 @@ https://www.saucedemo.com
 
 ---
 
-# Test Structure
+# Test Scenarios
 
 L001 — Empty username <br>
 L002 — Empty password <br>

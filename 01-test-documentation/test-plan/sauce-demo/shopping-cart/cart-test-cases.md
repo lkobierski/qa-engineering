@@ -8,7 +8,7 @@ https://www.saucedemo.com
 
 ---
 
-# Test Structure
+# Test Scenarios
 
 C001 — Adding single product to cart <br>
 C002 — Adding multiple products to cart<br>

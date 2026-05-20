@@ -8,7 +8,7 @@ https://www.saucedemo.com
 
 ---
 
-# Test Structure
+# Test Scenarios
 
 CH001 — Checkout with single product<br>
 CH002 — Checkout with multiple products<br>
