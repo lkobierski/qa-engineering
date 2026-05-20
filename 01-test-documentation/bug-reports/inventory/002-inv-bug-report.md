@@ -34,6 +34,14 @@ High
 
 ---
 
+# Test Data
+
+| Username | Password |
+|---|---|
+| standard_user | secret_sauce |
+
+---
+
 # Preconditions
 
 1. User is logged in
@@ -44,7 +52,7 @@ High
 # Steps to Reproduce
 
 1. Open inventory page
-2. Verify product titles and descriptions
+2. Verify displayed product titles and descriptions
 
 ---
 
