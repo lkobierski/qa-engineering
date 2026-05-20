@@ -53,3 +53,4 @@ CH009 — Valid input data accepted in checkout form
 # Notes
 
 The purpose of these test cases is to validate checkout flow, form validation and successful order completion functionality.
+
