@@ -1,4 +1,4 @@
-# BUG-INVENTORY-004 — Some products cannot be added to cart using "Add to cart" button 
+# BUG-INVENTORY-004 — Some products cannot be added to shopping cart using "Add to cart" button
 ## Application under test
 https://www.saucedemo.com
 
@@ -6,6 +6,7 @@ https://www.saucedemo.com
 
 # Bug Summary
 
+User cannot add every product to the shopping cart. 
 "Add to cart" button does not respond for some of the products displayed on the inventory page.
 
 ---
