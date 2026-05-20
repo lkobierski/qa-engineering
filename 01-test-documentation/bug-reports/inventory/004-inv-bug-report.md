@@ -72,8 +72,8 @@ Open
 
 # Attachments
 
-![BUG-004 Screenshot](./attachments/bug-004.png)
+![INV-BUG-004 Screenshot](./attachments/inv-bug-004.png)
 
-![BUG-004-1 Screenshot](./attachments/bug-004-1.png)
+![INV-BUG-004-1 Screenshot](./attachments/inv-bug-004-1.png)
 
 ---
