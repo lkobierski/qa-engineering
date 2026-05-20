@@ -1,7 +1,6 @@
 # BUG-INVENTORY-002 — Product sorting resets to default after page refresh
 
 ## Application under test
-
 https://www.saucedemo.com
 
 ---

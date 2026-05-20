@@ -1,7 +1,6 @@
 # BUG-INVENTORY-001 — Product titles and descriptions display raw JavaScript code on the inventory page
 
 ## Application under test
-
 https://www.saucedemo.com
 
 ---
