@@ -1,6 +1,6 @@
 # Authentication Test Cases — Negative Scenarios
 
-The purpose of these test cases is to validate negative authentication scenarios and verify that unauthorized access to the application is prevented.
+This document contains negative test scenarios for the SauceDemo authentication functionality.
 
 Application under test:
 
