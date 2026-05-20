@@ -40,10 +40,14 @@ CH009 — Verify checkout information form accepts valid input data
 
 # Test Data
 
+| Username | Password |
+|---|---|
+| standard_user | secret_sauce |
+
 | First Name | Last Name | Postal Code |
 |---|---|---|
-| standard_user | secret_sauce |
 | John | Smith | 00-001 |
+
 ---
 
 # Notes
