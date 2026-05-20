@@ -37,7 +37,13 @@ I009 — Verify inventory page is accessible after page refresh
 | I009 | Verify inventory page is accessible after page refresh | User is logged in and inventory page is displayed | 1. Refresh page 2. Verify inventory page accessibility | Inventory page remains accessible and functional after refresh | Medium |
 
 ---
+# Test Data
 
+| Username | Password |
+|---|---|
+| standard_user | secret_sauce |
+
+---
 # Notes
 
 The purpose of these test cases is to validate inventory page visibility, sorting functionality and basic UI consistency.
