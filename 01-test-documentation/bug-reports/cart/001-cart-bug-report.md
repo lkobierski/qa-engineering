@@ -70,7 +70,7 @@ Shopping cart page is unavailable and multiple errors are displayed in the brows
 - 503 error (Service Unavailable) <br>
 - TypeError: Cannot read properties of undefined (reading 'id') <br>
 - Failed to load resource: the server responded with a status of 404
-- No 'Access-Control-Allow-Origin' header is present on the requested resource.
+- No 'Access-Control-Allow-Origin' header is present on the requested resource
 
 ---
 
