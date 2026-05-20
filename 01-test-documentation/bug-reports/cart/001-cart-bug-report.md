@@ -67,8 +67,8 @@ Shopping cart page is unavailable and multiple errors are displayed in the brows
 
 # Error log
 
-503 (Service Unavailable)
-TypeError: Cannot read properties of undefined (reading 'id')
+503 (Service Unavailable) <br>
+TypeError: Cannot read properties of undefined (reading 'id') <br>
 Failed to load resource: the server responded with a status of 404 ()
 
 ---
