@@ -83,6 +83,6 @@ Open
 
 # Attachments
 
-![BUG-CHECKOUT-001 Screenshot](./attachments/bug-checkout-001.png)
+![BUG-CHECKOUT-001 Screenshot](./attachments/checkout-bug-report-001.png)
 
 ---
