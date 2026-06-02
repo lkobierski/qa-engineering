@@ -11,7 +11,6 @@ https://www.saucedemo.com
 | Field | Details |
 |---|---|
 | Session ID | |
-| Tester | |
 | Date | |
 | Duration | |
 | Area | |

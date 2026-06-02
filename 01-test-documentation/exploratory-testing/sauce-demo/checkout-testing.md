@@ -11,9 +11,8 @@ https://www.saucedemo.com
 | Field | Details |
 |---|---|
 | Session ID | EXP-CHECKOUT-001 |
-| Tester | LUK4SZ-QA |
-| Date | |
-| Duration | 45 minutes |
+| Date | 02/06/26|
+| Duration | 25 minutes |
 | Area | Checkout |
 | Browser | Google Chrome |
 | Operating System | Windows 11 |

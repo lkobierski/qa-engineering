@@ -11,9 +11,8 @@ https://www.saucedemo.com
 | Field | Details |
 |---|---|
 | Session ID | EXP-INV-001 |
-| Tester | LUK4SZ-QA |
-| Date | |
-| Duration | 45 minutes |
+| Date |02/06/26 |
+| Duration | 35 minutes |
 | Area | Inventory |
 | Browser | Google Chrome |
 | Operating System | Windows 11 |
