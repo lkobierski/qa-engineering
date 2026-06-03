@@ -1,0 +1,226 @@
+openapi: 3.0.3
+info:
+  title: Reqres API
+  description: Basic OpenAPI specification created for QA portfolio API testing purposes.
+  version: 1.0.0
+
+servers:
+  - url: https://reqres.in/api
+    description: Reqres public API
+
+tags:
+  - name: Users
+    description: User-related endpoints
+  - name: Authentication
+    description: Login and registration endpoints
+  - name: Resources
+    description: Resource-related endpoints
+
+paths:
+  /users:
+    get:
+      tags:
+        - Users
+      summary: Get list of users
+      parameters:
+        - name: page
+          in: query
+          required: false
+          schema:
+            type: integer
+          example: 2
+      responses:
+        "200":
+          description: User list returned successfully
+
+    post:
+      tags:
+        - Users
+      summary: Create user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateUserRequest"
+            example:
+              name: John
+              job: QA Engineer
+      responses:
+        "201":
+          description: User created successfully
+
+  /users/{id}:
+    get:
+      tags:
+        - Users
+      summary: Get single user
+      parameters:
+        - $ref: "#/components/parameters/UserId"
+      responses:
+        "200":
+          description: User returned successfully
+        "404":
+          description: User not found
+
+    put:
+      tags:
+        - Users
+      summary: Update user
+      parameters:
+        - $ref: "#/components/parameters/UserId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateUserRequest"
+            example:
+              name: John
+              job: Senior QA Engineer
+      responses:
+        "200":
+          description: User updated successfully
+
+    patch:
+      tags:
+        - Users
+      summary: Partially update user
+      parameters:
+        - $ref: "#/components/parameters/UserId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateUserRequest"
+            example:
+              job: QA Lead
+      responses:
+        "200":
+          description: User partially updated successfully
+
+    delete:
+      tags:
+        - Users
+      summary: Delete user
+      parameters:
+        - $ref: "#/components/parameters/UserId"
+      responses:
+        "204":
+          description: User deleted successfully
+
+  /login:
+    post:
+      tags:
+        - Authentication
+      summary: Login user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AuthRequest"
+            example:
+              email: eve.holt@reqres.in
+              password: cityslicka
+      responses:
+        "200":
+          description: Login successful
+        "400":
+          description: Missing password or invalid request
+
+  /register:
+    post:
+      tags:
+        - Authentication
+      summary: Register user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AuthRequest"
+            example:
+              email: eve.holt@reqres.in
+              password: pistol
+      responses:
+        "200":
+          description: Registration successful
+        "400":
+          description: Missing password or invalid request
+
+  /unknown:
+    get:
+      tags:
+        - Resources
+      summary: Get resource list
+      responses:
+        "200":
+          description: Resource list returned successfully
+
+  /unknown/{id}:
+    get:
+      tags:
+        - Resources
+      summary: Get single resource
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          example: 2
+      responses:
+        "200":
+          description: Resource returned successfully
+        "404":
+          description: Resource not found
+
+components:
+  parameters:
+    UserId:
+      name: id
+      in: path
+      required: true
+      schema:
+        type: integer
+      example: 2
+
+  schemas:
+    CreateUserRequest:
+      type: object
+      required:
+        - name
+        - job
+      properties:
+        name:
+          type: string
+          example: John
+        job:
+          type: string
+          example: QA Engineer
+
+    UpdateUserRequest:
+      type: object
+      properties:
+        name:
+          type: string
+          example: John
+        job:
+          type: string
+          example: Senior QA Engineer
+
+    AuthRequest:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+          example: eve.holt@reqres.in
+        password:
+          type: string
+          example: cityslicka
