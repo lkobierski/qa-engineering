@@ -1,57 +1,21 @@
-# Reqres API Testing
+# API Testing
 
-This section contains API testing documentation and Postman resources created for the Reqres public REST API.
+This section contains API testing projects created as part of QA portfolio development.
 
-API under test:
-
-https://reqres.in
+The purpose of this section is to demonstrate practical API testing skills using public REST APIs, API analysis, Postman collections, environment variables, test scripts and test execution results.
 
 ---
-
-# Purpose
 
 The purpose of this section is to demonstrate practical API testing skills, including:
 
 - REST API testing
+- API endpoint analysis
+- Positive and negative API scenarios
 - Status code validation
 - Response body validation
-- Positive and negative API scenarios
+- JSON field validation
 - Request payload validation
-- Basic authentication endpoint testing
-- Postman collection organization
+- Environment variables usage
+- Postman collection execution
+- Test result documentation
 
----
-
-# Tools
-
-| Area | Tool |
-|---|---|
-| API Testing | Postman |
-| Documentation | Markdown |
-| Version Control | Git, GitHub |
-
----
-
-# Scope
-
-The following API areas will be tested:
-
-- Users
-- Single user details
-- User creation
-- User update
-- User deletion
-- Login
-- Register
-- Negative API scenarios
-
----
-
-# Test Types
-
-- Functional API Testing
-- Positive Testing
-- Negative Testing
-- Status Code Validation
-- Response Body Validation
-- JSON Field Validation
