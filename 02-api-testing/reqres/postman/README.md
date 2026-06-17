@@ -48,7 +48,7 @@ The collection uses the following environment variables:
 3. Import the collection file:
 
 ```text
-collection/reqres-api-collection.json
+collection/reqres-collection.json
 ```
 
 4. Import the environment file:
@@ -64,7 +64,14 @@ environment/reqres-environment.json
 # API Key
 
 Reqres requires an API key to execute requests.
+
 Before running the collection, update the `apiKey` variable in the environment.
+
+For public repository usage, do not commit private API keys. Use a placeholder value such as:
+
+```text
+YOUR_API_KEY
+```
 
 ---
 
