@@ -71,4 +71,4 @@ Manual API testing documentation and Postman collection are available in:
 
 ## Attachments
 
-![ReqRes API Automated Tests Result](./attachments/reqres-tests-result.png)
+![ReqRes API Automated Tests Result](./attachments/reqres-tests-result.png) 
