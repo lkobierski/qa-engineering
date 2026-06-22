@@ -1,0 +1,21 @@
+{
+  "name": "saucedemo-ui-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+   "test": "playwright test",
+   "test:headed": "playwright test --headed",
+   "report": "playwright show-report"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "UI automation tests for SauceDemo using Playwright",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^26.0.0"
+  }
+}
