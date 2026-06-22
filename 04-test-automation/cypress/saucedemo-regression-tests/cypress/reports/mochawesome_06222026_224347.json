@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-06-22T20:43:44.001Z",
+    "end": "2026-06-22T20:43:47.774Z",
+    "duration": 3773,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "dfbe06f4-0ced-4914-9fd2-458991c131db",
+      "title": "",
+      "fullFile": "cypress\\e2e\\cart-regression.cy.js",
+      "file": "cypress\\e2e\\cart-regression.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "083dc1f5-f00b-40da-a7c4-e6496aae0cba",
+          "title": "SauceDemo Cart Regression",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should add product to cart and update cart badge",
+              "fullTitle": "SauceDemo Cart Regression should add product to cart and update cart badge",
+              "timedOut": null,
+              "duration": 1750,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.addProductToCart(testData.products.backpack.name);\ncy.get('[data-test=\"shopping-cart-badge\"]').should('have.text', '1');",
+              "err": {},
+              "uuid": "77d28bed-168b-4f7a-b5aa-2b9fe2bce9a2",
+              "parentUUID": "083dc1f5-f00b-40da-a7c4-e6496aae0cba",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should display added product in cart",
+              "fullTitle": "SauceDemo Cart Regression should display added product in cart",
+              "timedOut": null,
+              "duration": 1086,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.addProductToCart(testData.products.backpack.name);\ncy.get('[data-test=\"shopping-cart-link\"]').click();\ncy.url().should('include', '/cart.html');\ncy.get('[data-test=\"inventory-item-name\"]').should('have.text', testData.products.backpack.name);\ncy.get('[data-test=\"inventory-item-price\"]').should('have.text', testData.products.backpack.price);",
+              "err": {},
+              "uuid": "b65af108-3dc1-4331-9ec3-b40ee08a3486",
+              "parentUUID": "083dc1f5-f00b-40da-a7c4-e6496aae0cba",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should add multiple products to cart",
+              "fullTitle": "SauceDemo Cart Regression should add multiple products to cart",
+              "timedOut": null,
+              "duration": 869,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.addProductToCart(testData.products.backpack.name);\ncy.addProductToCart(testData.products.bikeLight.name);\ncy.get('[data-test=\"shopping-cart-badge\"]').should('have.text', '2');",
+              "err": {},
+              "uuid": "e1c389c1-ba7f-49f4-8d65-6fd5f02622d9",
+              "parentUUID": "083dc1f5-f00b-40da-a7c4-e6496aae0cba",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "77d28bed-168b-4f7a-b5aa-2b9fe2bce9a2",
+            "b65af108-3dc1-4331-9ec3-b40ee08a3486",
+            "e1c389c1-ba7f-49f4-8d65-6fd5f02622d9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3705,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.3.2"
+    }
+  }
+}

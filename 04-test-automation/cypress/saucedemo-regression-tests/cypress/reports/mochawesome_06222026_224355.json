@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-06-22T20:43:50.046Z",
+    "end": "2026-06-22T20:43:55.821Z",
+    "duration": 5775,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c6895d3d-0d08-43e7-b740-83cbfc5df05a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\checkout-regression.cy.js",
+      "file": "cypress\\e2e\\checkout-regression.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7c50098c-1231-49fb-b97a-d5d4ac8f5367",
+          "title": "SauceDemo Checkout Regression",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should require first name during checkout",
+              "fullTitle": "SauceDemo Checkout Regression should require first name during checkout",
+              "timedOut": null,
+              "duration": 1292,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-test=\"continue\"]').click();\ncy.get('[data-test=\"error\"]').should('have.text', testData.messages.missingFirstNameError);",
+              "err": {},
+              "uuid": "0ca356ec-7eef-452a-b80d-586f2de08d1b",
+              "parentUUID": "7c50098c-1231-49fb-b97a-d5d4ac8f5367",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should require last name during checkout",
+              "fullTitle": "SauceDemo Checkout Regression should require last name during checkout",
+              "timedOut": null,
+              "duration": 1293,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-test=\"firstName\"]').type(testData.customer.firstName);\ncy.get('[data-test=\"continue\"]').click();\ncy.get('[data-test=\"error\"]').should('have.text', testData.messages.missingLastNameError);",
+              "err": {},
+              "uuid": "d9ef16ec-f763-4928-9ed4-55b3de073ae0",
+              "parentUUID": "7c50098c-1231-49fb-b97a-d5d4ac8f5367",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should require postal code during checkout",
+              "fullTitle": "SauceDemo Checkout Regression should require postal code during checkout",
+              "timedOut": null,
+              "duration": 1406,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-test=\"firstName\"]').type(testData.customer.firstName);\ncy.get('[data-test=\"lastName\"]').type(testData.customer.lastName);\ncy.get('[data-test=\"continue\"]').click();\ncy.get('[data-test=\"error\"]').should('have.text', testData.messages.missingPostalCodeError);",
+              "err": {},
+              "uuid": "54fedd43-6e2d-49e7-9a23-75b62bb2f335",
+              "parentUUID": "7c50098c-1231-49fb-b97a-d5d4ac8f5367",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should complete checkout successfully",
+              "fullTitle": "SauceDemo Checkout Regression should complete checkout successfully",
+              "timedOut": null,
+              "duration": 1688,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-test=\"firstName\"]').type(testData.customer.firstName);\ncy.get('[data-test=\"lastName\"]').type(testData.customer.lastName);\ncy.get('[data-test=\"postalCode\"]').type(testData.customer.postalCode);\ncy.get('[data-test=\"continue\"]').click();\ncy.url().should('include', '/checkout-step-two.html');\ncy.get('[data-test=\"inventory-item-name\"]').should('have.text', testData.products.backpack.name);\ncy.get('[data-test=\"finish\"]').click();\ncy.url().should('include', '/checkout-complete.html');\ncy.get('[data-test=\"complete-header\"]').should('have.text', 'Thank you for your order!');",
+              "err": {},
+              "uuid": "025b72b0-72b2-430f-87c5-e55e6c7c368b",
+              "parentUUID": "7c50098c-1231-49fb-b97a-d5d4ac8f5367",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0ca356ec-7eef-452a-b80d-586f2de08d1b",
+            "d9ef16ec-f763-4928-9ed4-55b3de073ae0",
+            "54fedd43-6e2d-49e7-9a23-75b62bb2f335",
+            "025b72b0-72b2-430f-87c5-e55e6c7c368b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5679,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.3.2"
+    }
+  }
+}
