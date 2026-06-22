@@ -2,43 +2,56 @@
 
 This repository contains my QA portfolio projects focused on practical software testing skills and real-world QA workflows.
 
-The goal of this repository is to present my experience in:
+The goal of this repository is to demonstrate my ability to design, document, execute, and automate tests across different testing areas.
 
-- Manual Testing
-- API Testing
-- SQL
-- Test Automation
-- CI/CD
-- Testing Documentation
-- Quality Assurance Processes
+## About
 
-# Skills
+This portfolio includes projects related to:
 
-- Manual Testing
-- Functional Testing
-- Regression Testing
-- Exploratory Testing
-- API Testing
-- Test Case Design
-- Bug Reporting
-- SQL Basics
-- Git & GitHub
-- Agile / Scrum
-- Basic Test Automation
+- manual testing
+- API testing
+- database testing
+- test automation
+- regression testing
+- test documentation
+- bug reporting
+- QA process understanding
+
+The repository is organized into separate sections, where each section focuses on a specific QA area or testing tool.
+
+## Skills Demonstrated
+
+- Manual testing
+- Functional testing
+- Regression testing
+- Exploratory testing
+- API testing
+- Test case design
+- Bug reporting
+- SQL basics
+- UI test automation
+- API test automation
+- Page Object Model
+- Test data management
+- Git and GitHub
+- Basic CI/CD understanding
 
 ---
 
-# Tools & Technologies
+## Tools and Technologies
 
-| Area | Tools |
+| Area | Tools / Technologies |
 |---|---|
-| Test Management | Jira |
-| API Testing | Postman |
+| Test Documentation | Markdown |
+| API Testing | Postman, Reqres |
+| API Automation | Playwright |
+| UI Automation | Playwright, Cypress, Selenium WebDriver |
+| Test Runners | Playwright Test Runner, Cypress Test Runner, Mocha |
+| Reporting | Playwright HTML Report, Mochawesome, terminal test reports |
 | Database Testing | SQL |
-| Automation | Playwright, Cypress |
 | Version Control | Git, GitHub |
 | CI/CD | GitHub Actions |
-| Other | Chrome DevTools |
+| Other | Node.js, JavaScript, Chrome DevTools, VS Code |
 
 ---
 
@@ -52,9 +65,5 @@ qa-engineering/
 ├── 03-database-testing/
 ├── 04-test-automation/
 ├── 05-performance-testing/
-├── 06-mobile-testing/
-├── 07-security-basics/
-├── 08-ci-cd/
-├── 09-agile-scrum/
-├── 10-interview-preparation/
+├── 06-ci-cd/
 └── assets/
