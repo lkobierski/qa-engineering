@@ -23,25 +23,6 @@ https://reqres.in
 
 ---
 
-## Project Structure
-
-```text
-reqres-api-tests/
-├── README.md
-├── tests/
-│   ├── users.spec.js
-│   └── auth.spec.js
-├── data/
-│   └── test-data.js
-├── utils/
-│   └── api-client.js
-├── package.json
-├── playwright.config.js
-└── .gitignore
-```
-
----
-
 ## Installation
 
 ```bash
@@ -76,7 +57,7 @@ npx playwright show-report
 
 The project uses Reqres API base URL and API key configuration.
 
-Private API keys should not be hardcoded in the repository.
+Private API keys are not hardcoded in the repository.
 
 ---
 
@@ -88,8 +69,6 @@ Manual API testing documentation and Postman collection are available in:
 02-api-testing/reqres/
 ```
 
----
+## Attachments
 
-## Notes
-
-The project focuses on simple, readable and repeatable API tests executed from the command line.
+![ReqRes API Automated Tests Result](./attachments/reqres-tests-result.png)

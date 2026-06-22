@@ -1,0 +1,14 @@
+{
+  "name": "reqres-api-tests",
+  "version": "1.0.0",
+  "description": "Automated API tests for Reqres public REST API using Playwright.",
+  "scripts": {
+    "test": "playwright test",
+    "test:users": "playwright test tests/users.spec.js",
+    "test:auth": "playwright test tests/auth.spec.js",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
