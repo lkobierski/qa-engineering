@@ -33,12 +33,46 @@ Main focus:
 - positive and negative API scenarios
 - environment-based configuration
 
-Tools:
+---
 
-- JavaScript
-- Playwright
-- Cypress
-- Selenium
+## Automation Goals
+
+The main goals of this section are to demonstrate:
+
+- automated test creation
+- UI test automation
+- API test automation
+- test assertions
+- positive and negative automated scenarios
+- reusable test structure
+- test data management
+- Page Object Model usage
+- custom commands
+- readable and maintainable test code
+- test execution documentation
+
+---
+
+## Test Types
+
+The automation examples include:
+
+- smoke tests
+- regression tests
+- positive scenarios
+- negative scenarios
+- end-to-end user flows
+- API response validation
+- UI validation
+
+---
+
+## Applications Under Test
+
+| Application / API | Purpose |
+|---|---|
+| SauceDemo | UI automation practice |
+| Reqres | API automation practice |
 
 ---
 
@@ -107,47 +141,6 @@ Tools:
 - Mocha
 - ChromeDriver
 - Node.js assert
-
----
-
-## Automation Goals
-
-The main goals of this section are to demonstrate:
-
-- automated test creation
-- UI test automation
-- API test automation
-- test assertions
-- positive and negative automated scenarios
-- reusable test structure
-- test data management
-- Page Object Model usage
-- custom commands
-- readable and maintainable test code
-- test execution documentation
-
----
-
-## Test Types
-
-The automation examples include:
-
-- smoke tests
-- regression tests
-- positive scenarios
-- negative scenarios
-- end-to-end user flows
-- API response validation
-- UI validation
-
----
-
-## Applications Under Test
-
-| Application / API | Purpose |
-|---|---|
-| SauceDemo | UI automation practice |
-| Reqres | API automation practice |
 
 ---
 

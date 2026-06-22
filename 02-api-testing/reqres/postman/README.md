@@ -67,12 +67,6 @@ Reqres requires an API key to execute requests.
 
 Before running the collection, update the `apiKey` variable in the environment.
 
-For public repository usage, do not commit private API keys. Use a placeholder value such as:
-
-```text
-YOUR_API_KEY
-```
-
 ---
 
 # How to Run Tests
