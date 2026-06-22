@@ -1,38 +1,116 @@
 # Test Automation
 
-This section contains automated tests created as part of QA portfolio development.
+This section contains automated tests created as part of a QA engineering portfolio.
 
-The purpose of this section is to demonstrate practical test automation skills across different tools and testing layers, including UI automation and API automation.
+The purpose of this section is to demonstrate practical test automation skills across different tools and testing layers, including API automation and UI automation.
 
 ---
 
-# Scope
+## Scope
 
 This section is organized into separate automation areas:
 
-| Area | Purpose |
-|---|---|
-| API Automation | Automated API tests and request validation |
-| Cypress | UI test automation using Cypress |
-| Playwright | UI test automation using Playwright |
-| Selenium | UI test automation using Selenium WebDriver |
+| Area | Project | Purpose |
+|---|---|---|
+| API Automation | `reqres-api-tests` | Automated API tests for Reqres |
+| Playwright | `saucedemo-ui-tests` | UI automation for login and inventory flows |
+| Cypress | `saucedemo-regression-tests` | UI regression suite for SauceDemo |
+| Selenium | `saucedemo-cart-tests` | UI cart flow automation using Selenium WebDriver |
 
 ---
 
-# Repository Structure
+## Automation Projects
 
-```text
-04-test-automation/
-├── README.md
-├── api-automation/
-├── cypress/
-├── playwright/
-└── selenium/
-```
+### API Automation - Reqres API Tests
+
+Automated API tests for the Reqres public API.
+
+Main focus:
+
+- API request validation
+- status code validation
+- response body validation
+- positive and negative API scenarios
+- environment-based configuration
+
+Tools:
+
+- JavaScript
+- Playwright
+- Cypress
+- Selenium
 
 ---
 
-# Automation Goals
+### Playwright - SauceDemo UI Tests
+
+UI automation tests for selected SauceDemo flows.
+
+Main focus:
+
+- login functionality
+- negative login validation
+- inventory page validation
+- product sorting
+- Page Object Model
+- test data separation
+
+Tools:
+
+- JavaScript
+- Playwright
+- Playwright Test Runner
+
+---
+
+### Cypress - SauceDemo Regression Tests
+
+Regression UI tests for SauceDemo.
+
+Main focus:
+
+- login regression
+- inventory regression
+- cart regression
+- checkout regression
+- custom Cypress commands
+- fixtures for test data
+- Mochawesome HTML reporting
+
+Tools:
+
+- JavaScript
+- Cypress
+- Cypress Test Runner
+- Mochawesome
+
+---
+
+### Selenium - SauceDemo Cart Tests
+
+UI automation tests for SauceDemo cart flow.
+
+Main focus:
+
+- login before cart tests
+- adding a single product to cart
+- adding multiple products to cart
+- verifying cart item details
+- removing a product from cart
+- continuing shopping from cart
+- Page Object Model
+
+Tools:
+
+- JavaScript
+- Selenium WebDriver
+- Mocha
+- ChromeDriver
+- Node.js assert
+
+---
+
+## Automation Goals
 
 The main goals of this section are to demonstrate:
 
@@ -42,41 +120,29 @@ The main goals of this section are to demonstrate:
 - test assertions
 - positive and negative automated scenarios
 - reusable test structure
-- basic test data management
+- test data management
+- Page Object Model usage
+- custom commands
 - readable and maintainable test code
 - test execution documentation
 
 ---
 
-# Tools
+## Test Types
 
-| Area | Tools |
-|---|---|
-| API Automation | Postman, JavaScript / chosen framework |
-| UI Automation | Cypress, Playwright, Selenium WebDriver |
-| Runtime | Node.js / chosen runtime depending on tool |
-| Version Control | Git, GitHub |
-
----
-
-# Test Types
-
-The automation examples may include:
+The automation examples include:
 
 - smoke tests
 - regression tests
 - positive scenarios
 - negative scenarios
 - end-to-end user flows
-- API contract-related checks
-- response validation
+- API response validation
 - UI validation
 
 ---
 
-# Applications Under Test
-
-The automation projects may use public demo applications and APIs, such as:
+## Applications Under Test
 
 | Application / API | Purpose |
 |---|---|
@@ -85,33 +151,10 @@ The automation projects may use public demo applications and APIs, such as:
 
 ---
 
-# Planned Projects
+## Notes
 
-| Folder | Planned Content | Status |
-|---|---|---|
-| api-automation | Automated API tests for public REST API | Planned |
-| cypress | UI automation examples using Cypress | Planned |
-| playwright | UI automation examples using Playwright | Planned |
-| selenium | UI automation examples using Selenium WebDriver | Planned |
+Each automation project contains its own README with setup instructions, test scope and execution commands.
 
----
-
-# Approach
-
-Each automation folder will contain its own project-specific README with:
-
-- tool setup
-- installation steps
-- test execution command
-- folder structure
-- test scope
-- example test scenarios
-- notes about implementation
-
-The goal is to keep each automation project independent, readable and easy to run.
-
----
-
-# Notes
+Generated dependencies and test artifacts such as `node_modules/`, reports, videos and screenshots should not be committed to the repository.
 
 This section is focused on practical QA automation skills rather than advanced framework engineering.

@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  	"test": "mocha tests/**/*.test.js --timeout 30000"
+    "test": "mocha tests/**/*.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "chromedriver": "^150.0.0",
+    "chromedriver": "^149.0.4",
     "mocha": "^11.7.6",
     "selenium-webdriver": "^4.45.0"
   }
