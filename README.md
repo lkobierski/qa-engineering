@@ -20,6 +20,7 @@ qa-engineering/
 ├── 05-performance-testing/
 ├── 06-ci-cd/
 └── assets/
+```
 
 ## Skills Demonstrated
 
