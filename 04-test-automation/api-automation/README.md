@@ -19,4 +19,3 @@ Automated API tests focus on:
 - authentication endpoint validation
 - reusable test structure
 - test execution from command line
-
