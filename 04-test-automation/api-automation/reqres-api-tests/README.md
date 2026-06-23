@@ -23,6 +23,47 @@ https://reqres.in
 
 ---
 
+# Tools
+
+| Area | Tool |
+|---|---|
+| API Automation | Playwright API Testing |
+| Programming Language | JavaScript |
+| Runtime | Node.js |
+| Test Runner | Playwright Test |
+| Version Control | Git, GitHub |
+
+---
+
+# Test Scope
+
+The first API automation project will cover selected Reqres endpoints:
+
+| Area | Example Tests |
+|---|---|
+| Users | Get users list, get single user, get non-existing user |
+| Authentication | Successful login, login without password |
+| User Management | Create user, update user, delete user |
+
+---
+
+# Automation Approach
+
+The tests will be created based on previously prepared API testing documentation and Postman scenarios.
+
+The workflow is:
+
+```text
+API analysis
+→ test scenarios
+→ Postman collection
+→ automated API tests
+→ test execution results
+```
+
+---
+
+
 ## Installation
 
 ```bash

@@ -2,10 +2,6 @@
 
 This section contains API testing documentation and Postman resources created for the Reqres public REST API.
 
-API under test:
-
-https://reqres.in
-
 ---
 
 # Tools
