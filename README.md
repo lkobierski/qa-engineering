@@ -28,11 +28,12 @@ qa-engineering/
 - Regression testing
 - Exploratory testing
 - API testing
-- Test case design
-- Bug reporting
 - SQL requests
 - UI test automation
 - API test automation
+- Test case design
+- Test design techniques
+- Bug reporting
 - Page Object Model
 - Test data management
 - Git and GitHub
