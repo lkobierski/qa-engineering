@@ -10,15 +10,15 @@ The repository is organized into separate sections, where each section focuses o
 
 # Repository Structure
 
-qa-engineering/
-
-├── [01-test-documentation/](./01-test-documentation/)
-├── [02-api-testing/](./02-api-testing/)
-├── [03-database-testing/](./03-database-testing/)
-├── [04-test-automation/](./04-test-automation/)
-├── [05-performance-testing/](./05-performance-testing/)
-├── [06-ci-cd/](./06-ci-cd/)
-└── [assets/](./assets/)
+| Section | Description |
+|---|---|
+| [01-test-documentation](./01-test-documentation/) | Manual test cases, exploratory testing notes and QA documentation |
+| [02-api-testing](./02-api-testing/) | API testing documentation and Postman resources |
+| [03-database-testing](./03-database-testing/) | SQL practice and database testing examples |
+| [04-test-automation](./04-test-automation/) | Automated tests using Playwright, Cypress, Selenium and API automation |
+| [05-performance-testing](./05-performance-testing/) | Performance testing examples |
+| [06-ci-cd](./06-ci-cd/) | CI/CD examples using GitHub Actions |
+| [assets](./assets/) | Images and supporting portfolio assets |
 
 ## Skills Demonstrated
 
