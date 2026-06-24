@@ -11,9 +11,9 @@ This section is organized into separate automation areas:
 | Area | Project | Purpose |
 |---|---|---|
 | API Automation | `reqres-api-tests` | Automated API tests for Reqres |
-| Playwright | `saucedemo-ui-tests` | UI automation for login and inventory flows |
+| Playwright | `saucedemo-ui-tests` | UI automation for login and inventory flows for SauceDemo |
 | Cypress | `saucedemo-regression-tests` | UI regression suite for SauceDemo |
-| Selenium | `saucedemo-cart-tests` | UI cart flow automation using Selenium WebDriver |
+| Selenium | `saucedemo-cart-tests` | UI cart flow automation for SauceDemo using Selenium WebDriver |
 
 ---
 
