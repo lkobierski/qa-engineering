@@ -1,8 +1,8 @@
-# SauceDemo Regression Tests - Cypress
+# Cypress Automation - SauceDemo Regression Tests
 
 Automated UI regression tests for the SauceDemo web application using Cypress and JavaScript.
 
-## Project scope
+## Project overview
 
 This project covers regression tests for the most important user flows in SauceDemo:
 
