@@ -102,7 +102,7 @@ Tools:
 
 ---
 
-### Selenium - SauceDemo Cart Tests
+### Selenium - SauceDemo Shopping Cart Tests
 
 UI automation tests for SauceDemo cart flow.
 
