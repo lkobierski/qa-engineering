@@ -68,7 +68,6 @@ Main focus:
 - negative login validation
 - inventory page validation
 - product sorting
-- Page Object Model
 - test data separation
 
 Tools:
