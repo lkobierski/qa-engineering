@@ -1,10 +1,8 @@
-# Playwright Automation
+# Playwright Automation - SauceDemo UI Tests
 
-## Project overview - SauceDemo UI Tests
+## Project overview 
 
 UI automation tests for the SauceDemo web application using Playwright and JavaScript.
-
-## Project scope
 
 This project covers selected UI test scenarios for:
 

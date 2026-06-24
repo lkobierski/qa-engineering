@@ -1,10 +1,8 @@
-# Selenium Test Automation
+# Selenium Automation - SauceDemo Cart Tests
 
-## Project overview - SauceDemo Cart Tests
+## Project overview 
 
 The `saucedemo-cart-tests` project contains automated UI tests for the SauceDemo cart flow created with Selenium WebDriver.
-
-The goal of this project is to demonstrate browser automation using Selenium WebDriver with JavaScript, Mocha, and the Page Object Model pattern.
 
 Main coverage:
 
