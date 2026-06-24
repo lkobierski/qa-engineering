@@ -13,13 +13,13 @@ The repository is organized into separate sections, where each section focuses o
 ```text
 qa-engineering/
 
-├── 01-test-documentation/
-├── 02-api-testing/
-├── 03-database-testing/
-├── 04-test-automation/
-├── 05-performance-testing/
-├── 06-ci-cd/
-└── assets/
+├── [01-test-documentation/](./01-test-documentation/)
+├── [02-api-testing/](./02-api-testing/)
+├── [03-database-testing/](./03-database-testing/)
+├── [04-test-automation/](./04-test-automation/)
+├── [05-performance-testing/](./05-performance-testing/)
+├── [06-ci-cd/](./06-ci-cd/)
+└── [assets/](./assets/)
 ```
 
 ## Skills Demonstrated
