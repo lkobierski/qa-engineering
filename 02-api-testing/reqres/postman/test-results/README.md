@@ -4,15 +4,6 @@ This folder contains test execution evidence for the Reqres Postman API test col
 
 ---
 
-# Files
-
-| File | Description |
-|---|---|
-| reqres-postman-test-results.md | Detailed Postman test execution summary |
-| attachments/test-results-screenshot.png | Screenshot from Postman collection run |
-
----
-
 ## Test Execution Summary
 
 | Field | Details |
