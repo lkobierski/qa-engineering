@@ -114,7 +114,6 @@ Main focus:
 - verifying cart item details
 - removing a product from cart
 - continuing shopping from cart
-- Page Object Model
 
 Tools:
 
