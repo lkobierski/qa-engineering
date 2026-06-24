@@ -1,6 +1,6 @@
 # Reqres API Automated Tests
 
-Automated API tests for the Reqres public REST API created with Playwright API Testing and JavaScript.
+Automated API tests for the Reqres public REST API created with Playwright and JavaScript.
 
 This project is a code-based continuation of the Reqres API testing work prepared in Postman.
 
@@ -49,7 +49,7 @@ Automated API tests focus on:
 
 # Test Scope
 
-The first API automation project will cover selected Reqres endpoints:
+This project will cover selected Reqres endpoints:
 
 | Area | Example Tests |
 |---|---|
@@ -61,7 +61,7 @@ The first API automation project will cover selected Reqres endpoints:
 
 # Automation Approach
 
-The tests will be created based on previously prepared API testing documentation and Postman scenarios.
+The tests are created based on previously prepared API testing documentation and Postman scenarios.
 
 The workflow is:
 
