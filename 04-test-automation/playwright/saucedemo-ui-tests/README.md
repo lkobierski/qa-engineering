@@ -86,10 +86,6 @@ test-results/
 
 These folders are not committed to the repository.
 
-## Notes
-
-This project is part of a QA engineering portfolio and demonstrates UI test automation using Playwright, test data separation, and the Page Object Model pattern.
-
 
 ## Attachments
 ![SauceDemo UI Automated Tests Result](./attachments/saucedemo-ui-tests-result.png) 

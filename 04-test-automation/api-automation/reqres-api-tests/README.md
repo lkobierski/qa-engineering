@@ -1,11 +1,3 @@
-# API Automation
-
-This folder contains automated API tests created as part of QA portfolio development.
-
-This section focuses on practical API automation basics.
-
----
-
 # Reqres API Automated Tests
 
 Automated API tests for the Reqres public REST API created with Playwright API Testing and JavaScript.
@@ -21,10 +13,6 @@ https://reqres.in
 ```
 
 ---
-
-# Purpose
-
-The goal of API automation is to validate API behavior in a repeatable way, without running requests manually in Postman.
 
 Automated API tests focus on:
 

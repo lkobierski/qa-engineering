@@ -10,7 +10,6 @@ The purpose of this section is to demonstrate practical API testing skills using
 
 This section focuses on:
 
-- functional REST API Testing
 - API endpoint analysis
 - positive and negative API scenarios
 - status code validation
