@@ -8,7 +8,7 @@ This folder contains the Postman collection file used for testing the Reqres pub
 
 The collection file contains API requests, request bodies, headers and test scripts used to validate Reqres API behavior.
 
-[Open Reqres API Collection JSON](./reqres-api-collection.json)
+[Open Reqres API Collection JSON](./reqres-collection.json)
 
 ---
 
