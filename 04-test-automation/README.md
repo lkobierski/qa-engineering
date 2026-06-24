@@ -1,8 +1,6 @@
-# Test Automation
+# API Test Automation - Reqres API Tests
 
-This section contains automated tests created as part of a QA engineering portfolio.
-
-The purpose of this section is to demonstrate practical test automation skills across different tools and testing layers, including API automation and UI automation.
+This section contains automated tests the Reqres public API created as part of a QA engineering portfolio.
 
 ---
 
@@ -16,22 +14,6 @@ This section is organized into separate automation areas:
 | Playwright | `saucedemo-ui-tests` | UI automation for login and inventory flows |
 | Cypress | `saucedemo-regression-tests` | UI regression suite for SauceDemo |
 | Selenium | `saucedemo-cart-tests` | UI cart flow automation using Selenium WebDriver |
-
----
-
-## Automation Projects
-
-### API Automation - Reqres API Tests
-
-Automated API tests for the Reqres public API.
-
-Main focus:
-
-- API request validation
-- status code validation
-- response body validation
-- positive and negative API scenarios
-- environment-based configuration
 
 ---
 
