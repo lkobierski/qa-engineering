@@ -10,7 +10,7 @@ The purpose of this section is to demonstrate practical API testing skills using
 
 This section focuses on:
 
-- REST API testing
+- functional REST API Testing
 - API endpoint analysis
 - positive and negative API scenarios
 - status code validation
@@ -44,7 +44,6 @@ This section contains API testing documentation and Postman resources created fo
 
 The following API areas will be tested:
 
-- Users
 - Single user details
 - User creation
 - User update
@@ -53,13 +52,3 @@ The following API areas will be tested:
 - Register
 - Negative API scenarios
 
----
-
-# Test Types
-
-- Functional API Testing
-- Positive Testing
-- Negative Testing
-- Status Code Validation
-- Response Body Validation
-- JSON Field Validation
