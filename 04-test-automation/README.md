@@ -1,6 +1,6 @@
-# API Test Automation - Reqres API Tests
+# Test Automation
 
-This section contains automated tests the Reqres public API created as part of a QA engineering portfolio.
+This section contains automated tests created as part of a QA engineering portfolio.
 
 ---
 
