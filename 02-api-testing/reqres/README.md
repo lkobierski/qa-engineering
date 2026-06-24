@@ -1,8 +1,8 @@
-# API Testing
+# Reqres API Testing
 
-This section contains API testing projects created as part of a QA engineering portfolio.
+This section contains API testing documentation and Postman resources created for the Reqres public REST API.
 
-The purpose of this section is to demonstrate practical API testing skills using public REST APIs, Postman collections, environment variables, test scripts, and test execution documentation.
+The purpose of this section is to demonstrate practical API testing skills using public REST API, Postman collections, environment variables, test scripts, and test execution documentation.
 
 ---
 
@@ -22,12 +22,6 @@ This section focuses on:
 
 ---
 
-# Reqres API Testing
-
-This section contains API testing documentation and Postman resources created for the Reqres public REST API.
-
----
-
 # Tools
 
 | Area | Tool |
@@ -39,7 +33,7 @@ This section contains API testing documentation and Postman resources created fo
 
 ---
 
-# Test Areas
+# Test Coverage
 
 The following API areas will be tested:
 
