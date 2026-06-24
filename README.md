@@ -10,7 +10,6 @@ The repository is organized into separate sections, where each section focuses o
 
 # Repository Structure
 
-```text
 qa-engineering/
 
 ├── [01-test-documentation/](./01-test-documentation/)
@@ -20,7 +19,6 @@ qa-engineering/
 ├── [05-performance-testing/](./05-performance-testing/)
 ├── [06-ci-cd/](./06-ci-cd/)
 └── [assets/](./assets/)
-```
 
 ## Skills Demonstrated
 
