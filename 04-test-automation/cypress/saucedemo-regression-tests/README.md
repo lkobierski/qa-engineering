@@ -125,3 +125,7 @@ Current custom commands include:
 
 - `cy.login(username, password)`
 - `cy.addProductToCart(productName)`
+
+## Attachments
+
+![Cypress Automated Tests Result](./attachments/cypress-automation-tests.png) 
