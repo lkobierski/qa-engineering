@@ -6,6 +6,18 @@ The purpose of this section is to demonstrate practical API testing skills using
 
 ---
 
+## Repository Structure
+
+| Section | Content |
+|---|---|
+| [test-plan](./test-plan/) | Test plan |
+| [test-cases](./test-cases/) | Manual test cases |
+| [checklists](./checklists/) | Test checklists |
+| [exploratory-testing](./exploratory-testing/) | Exploratory testing notes |
+| [bug-reports](./bug-reports/) | Bug reports |
+
+---
+
 ## Scope
 
 This section focuses on:
@@ -44,4 +56,3 @@ The following API areas will be tested:
 - Login
 - Register
 - Negative API scenarios
-

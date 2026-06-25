@@ -8,7 +8,7 @@ The goal of this repository is to demonstrate my ability to design, document, ex
 
 The repository is organized into separate sections, where each section focuses on a specific QA area or testing tool.
 
-# Repository Structure
+## Repository Structure
 
 | Section | Description |
 |---|---|

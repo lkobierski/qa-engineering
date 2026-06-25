@@ -6,7 +6,19 @@ The goal of this section is to demonstrate practical software testing skills, te
 
 ---
 
-# Scope
+## Repository Structure
+
+| Section | Content |
+|---|---|
+| [test-plan](./test-plan/) | Test plan |
+| [test-cases](./test-cases/) | Manual test cases |
+| [checklists](./checklists/) | Test checklists |
+| [exploratory-testing](./exploratory-testing/) | Exploratory testing notes |
+| [bug-reports](./bug-reports/) | Bug reports |
+
+---
+
+## Scope
 
 This section includes:
 
@@ -20,7 +32,7 @@ All documents are based on realistic testing scenarios and business flows.
 
 ---
 
-# Testing Types
+## Testing Types
 
 The following testing types are covered:
 
@@ -33,7 +45,7 @@ The following testing types are covered:
 
 ---
 
-# Main Testing Areas
+## Main Testing Areas
 
 The testing documentation focuses on:
 
@@ -48,7 +60,7 @@ The testing documentation focuses on:
 
 ---
 
-# Test Design Techniques
+## Test Design Techniques
 
 Examples in this section may include:
 
@@ -58,15 +70,5 @@ Examples in this section may include:
 - State Transition Testing
 - Error Guessing
 
----
 
-# Repository Structure
 
-```text
-01-test-documentation/
-│
-├── test-plan/
-├── test-cases/
-├── checklists/
-├── exploratory-testing/
-└── bug-reports/
