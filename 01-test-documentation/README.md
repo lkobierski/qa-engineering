@@ -10,11 +10,11 @@ The goal of this section is to demonstrate practical software testing skills, te
 
 | Section | Content |
 |---|---|
-| [test-plan](./test-plan/) | Test plan |
-| [test-cases](./test-cases/) | Manual test cases |
-| [checklists](./checklists/) | Test checklists |
-| [exploratory-testing](./exploratory-testing/) | Exploratory testing notes |
-| [bug-reports](./bug-reports/) | Bug reports |
+| [test-plan](./test-plan/sauce-demo) | Test plan |
+| [test-cases](./test-cases/sauce-demo) | Manual test cases |
+| [checklists](./checklists/sauce-demo) | Test checklists |
+| [exploratory-testing](./exploratory-testing/sauce-demo) | Exploratory testing notes |
+| [bug-reports](./bug-reports/sauce-demo) | Bug reports |
 
 ---
 

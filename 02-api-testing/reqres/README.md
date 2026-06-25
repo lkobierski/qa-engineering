@@ -10,11 +10,9 @@ The purpose of this section is to demonstrate practical API testing skills using
 
 | Section | Content |
 |---|---|
-| [test-plan](./test-plan/sauce-demo) | Test plan |
-| [test-cases](./test-cases/sauce-demo) | Manual test cases |
-| [checklists](./checklists/sauce-demo) | Test checklists |
-| [exploratory-testing](./exploratory-testing/sauce-demo) | Exploratory testing notes |
-| [bug-reports](./bug-reports/sauce-demo) | Bug reports |
+| [api-analysis](./api-analysis/reqres-api-analysis.md) | API analysis |
+| [postman](./postman/) | Postman resources |
+| [test-scenarios](./test-scenarios/reqres-api-test-scenario.md) | API test scenarios |
 
 ---
 
