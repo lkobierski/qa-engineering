@@ -4,7 +4,7 @@ This folder contains test execution evidence for the Reqres Postman API test col
 
 ---
 
-# Test Execution Summary
+## Test Execution Summary
 
 | Field | Details |
 |---|---|
@@ -16,7 +16,7 @@ This folder contains test execution evidence for the Reqres Postman API test col
 
 ---
 
-# Summary
+## Summary
 
 | Area | Requests | Result |
 |---|---:|---|
@@ -26,15 +26,15 @@ This folder contains test execution evidence for the Reqres Postman API test col
 
 ---
 
-# Overall Result
+## Overall Result
 
 All API requests were executed successfully and all Postman test scripts passed.
 
 ---
 
-# Notes
+## Notes
 
 The collection validates status codes, response body structure, required JSON fields, authentication token presence, error responses and negative scenarios.
 
-# Attachments
+## Attachments
 ![Postman Test Results Screenshot](./attachments/test-results-screenshot.png)

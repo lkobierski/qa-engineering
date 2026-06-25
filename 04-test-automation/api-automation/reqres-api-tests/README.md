@@ -35,7 +35,7 @@ Automated API tests focus on:
 
 ---
 
-# Tools
+## Tools
 
 | Area | Tool |
 |---|---|
@@ -47,7 +47,7 @@ Automated API tests focus on:
 
 ---
 
-# Test Scope
+## Test Scope
 
 This project will cover selected Reqres endpoints:
 
@@ -59,7 +59,7 @@ This project will cover selected Reqres endpoints:
 
 ---
 
-# Automation Approach
+## Automation Approach
 
 The tests are created based on previously prepared API testing documentation and Postman scenarios.
 

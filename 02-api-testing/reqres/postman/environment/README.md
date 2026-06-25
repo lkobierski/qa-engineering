@@ -4,7 +4,7 @@ This folder contains the Postman environment file used for running Reqres API te
 
 ---
 
-# Environment File
+## Environment File
 
 The environment file contains variables used by the Postman collection, such as base URL, user IDs, authentication data and API key placeholder.
 
@@ -12,7 +12,7 @@ The environment file contains variables used by the Postman collection, such as 
 
 ---
 
-# Environment Variables
+## Environment Variables
 
 | Variable | Description |
 |---|---|
@@ -26,10 +26,10 @@ The environment file contains variables used by the Postman collection, such as 
 
 ---
 
-# API Key Note
+## API Key Note
 
 Before running the collection, update the `apiKey` variable in Postman.
 
-# Postman Environment Screenshot
+## Postman Environment Screenshot
 
 ![Postman Environment Screenshot](./postman-environment-screenshot.png)

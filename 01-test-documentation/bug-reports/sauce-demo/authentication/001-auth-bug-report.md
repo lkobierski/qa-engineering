@@ -6,13 +6,13 @@ https://www.saucedemo.com
 
 ---
 
-# Bug Summary
+## Bug Summary
 
 Login validation error remains visible, after user update the username or password field.
 
 ---
 
-# Environment
+## Environment
 
 | Component | Details |
 |---|---|
@@ -22,19 +22,19 @@ Login validation error remains visible, after user update the username or passwo
 
 ---
 
-# Severity
+## Severity
 
 Low
 
 ---
 
-# Priority
+## Priority
 
 Medium
 
 ---
 
-# Test Data
+## Test Data
 
 | Username | Password |
 |---|---|
@@ -42,13 +42,13 @@ Medium
 
 ---
 
-# Preconditions
+## Preconditions
 
 1. User is on the login page
 
 ---
 
-# Steps to Reproduce
+## Steps to Reproduce
 
 1. Open login page
 2. Click Login button without entering username
@@ -58,23 +58,23 @@ Medium
 
 ---
 
-# Expected Result
+## Expected Result
 
 Validation message is cleared after user updates the required fields.
 
 ---
 
-# Actual Result
+## Actual Result
 
 Validation error remains visible after user updates the required fields.
 
 ---
 
-# Status
+## Status
 
 Open
 
-# Attachments
+## Attachments
 
 ![AUTH-BUG-001 Screenshot](./attachments/auth-bug-001.png)
 

@@ -8,7 +8,7 @@ https://reqres.in
 
 ---
 
-# Files
+## Files
 
 | File | Description |
 |---|---|
@@ -17,7 +17,7 @@ https://reqres.in
 
 ---
 
-# Requirements
+## Requirements
 
 To run these API tests, the following tool is required:
 
@@ -25,7 +25,7 @@ To run these API tests, the following tool is required:
 
 ---
 
-# Environment Variables
+## Environment Variables
 
 The collection uses the following environment variables:
 
@@ -41,7 +41,7 @@ The collection uses the following environment variables:
 
 ---
 
-# How to Import
+## How to Import
 
 1. Open Postman
 2. Click `Import`
@@ -61,7 +61,7 @@ environment/reqres-environment.json
 
 ---
 
-# API Key
+## API Key
 
 Reqres requires an API key to execute requests.
 
@@ -69,7 +69,7 @@ Before running the collection, update the `apiKey` variable in the environment.
 
 ---
 
-# How to Run Tests
+## How to Run Tests
 
 1. Open Postman
 2. Select the `Reqres API Testing` collection
@@ -80,7 +80,7 @@ Before running the collection, update the `apiKey` variable in the environment.
 
 ---
 
-# Expected Result
+## Expected Result
 
 The collection should complete with all tests passed.
 
@@ -97,7 +97,7 @@ Current test coverage includes:
 
 ---
 
-# Test Results
+## Test Results
 
 Latest test execution results are stored in:
 
@@ -107,8 +107,10 @@ Latest test execution results are stored in:
 
 ---
 
-# Notes
+## Notes
 
 The collection was created for QA portfolio purposes. It demonstrates basic API testing skills using Postman, environment variables, request payloads, status code assertions and response body validation.
+
+## Attachments
 
 ![Postman Collection Screenshot](./postman-collection-screenshot.png)

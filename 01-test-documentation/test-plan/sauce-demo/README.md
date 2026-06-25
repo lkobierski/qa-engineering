@@ -6,7 +6,7 @@ The purpose of this test plan is to verify the core functionality, usability, an
 
 ---
 
-# 2. Scope
+## 2. Scope
 
 The following areas will be tested:
 
@@ -26,7 +26,7 @@ The following areas will be tested:
 
 ---
 
-# 3. Test Types
+## 3. Test Types
 
 The following testing types will be performed:
 
@@ -39,7 +39,7 @@ The following testing types will be performed:
 - Validation Testing
 ---
 
-# 4. Features to be Tested
+## 4. Features to be Tested
 
 | Feature | Description |
 |---|---|
@@ -65,7 +65,7 @@ The following testing types will be performed:
 
 ---
 
-# 6. Test Strategy
+## 6. Test Strategy
 
 Testing will be performed manually using predefined test cases and exploratory testing techniques.
 
@@ -80,7 +80,7 @@ Priority will be given to critical functionalities such as authentication and ch
 
 ---
 
-# 7. Entry Criteria
+## 7. Entry Criteria
 
 Testing activities may begin when:
 
@@ -91,7 +91,7 @@ Testing activities may begin when:
 
 ---
 
-# 8. Exit Criteria
+## 8. Exit Criteria
 
 Testing activities may be completed when:
 
@@ -102,7 +102,7 @@ Testing activities may be completed when:
 
 ---
 
-# 9. Data
+## 9. Data
 
 | Username | Password |
 |---|---|
@@ -112,7 +112,7 @@ Testing activities may be completed when:
 
 ---
 
-# Status
+## Status
 
 Document version: 1.0  
 Testing type: Manual QA  

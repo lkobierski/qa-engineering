@@ -1,12 +1,12 @@
-# Selenium Automation - SauceDemo Cart Tests
+# Selenium Automation - SauceDemo Shopping Cart Tests
 
 ## Project overview 
 
 The `saucedemo-cart-tests` project contains automated UI tests for the SauceDemo cart flow created with Selenium WebDriver.
 
-Main coverage:
+## Shopping Cart Tests
 
-- login before cart tests
+- login before cart
 - adding a single product to cart
 - adding multiple products to cart
 - verifying cart item details

@@ -32,7 +32,7 @@ This section focuses on:
 
 ---
 
-# Tools
+## Tools
 
 | Area | Tool |
 |---|---|
@@ -43,7 +43,7 @@ This section focuses on:
 
 ---
 
-# Test Coverage
+## Test Coverage
 
 The following API areas will be tested:
 

@@ -4,7 +4,7 @@ This folder contains the Postman collection file used for testing the Reqres pub
 
 ---
 
-# Collection File
+## Collection File
 
 The collection file contains API requests, request bodies, headers and test scripts used to validate Reqres API behavior.
 
@@ -12,7 +12,7 @@ The collection file contains API requests, request bodies, headers and test scri
 
 ---
 
-# Collection Structure
+## Collection Structure
 
 The collection is organized into the following areas:
 
@@ -24,7 +24,7 @@ The collection is organized into the following areas:
 
 ---
 
-# Test Coverage
+## Test Coverage
 
 The collection includes validation for:
 
@@ -38,10 +38,10 @@ The collection includes validation for:
 
 ---
 
-# Environment
+## Environment
 
 This collection should be executed with the `Reqres Environment`.
 
-# Postman Collection Screenshot
+## Postman Collection Screenshot
 
 ![Postman Collection Screenshot](./postman-collection-screenshot.png)
