@@ -15,7 +15,7 @@ The repository is organized into separate sections, where each section focuses o
 | [01-test-documentation](./01-test-documentation/) | Manual test cases, exploratory testing notes, bug reports and QA documentation |
 | [02-api-testing](./02-api-testing/reqres/) | API testing documentation and Postman resources |
 | [03-database-testing](./03-database-testing/) | SQL practice and database testing examples |
-| [04-test-automation](./04-test-automation/) | Automated tests using Playwright, Cypress, Selenium and API automation |
+| [04-test-automation](./04-test-automation/) | API automation and automated tests using Playwright, Cypress and Selenium |
 | [05-performance-testing](./05-performance-testing/) | Performance testing examples |
 | [06-ci-cd](./06-ci-cd/) | CI/CD examples using GitHub Actions |
 | [assets](./assets/) | Images and supporting portfolio assets |
