@@ -12,7 +12,7 @@ This section is organized into separate automation areas:
 |---|---|---|
 | API Automation | [reqres-api-tests](./api-automation/reqres-api-tests/) | Automated API tests for Reqres |
 | Playwright | [saucedemo-ui-tests](./playwright/saucedemo-ui-tests/) | UI automation for login and inventory flows for SauceDemo |
-| Cypress | [saucedemo-regression-tests](./cypress/saucedemo-regression-tests/) | UI regression suite for SauceDemo |
+| Cypress | [saucedemo-regression-tests](./cypress/saucedemo-regression-tests/) | UI regression tests for SauceDemo |
 | Selenium | [saucedemo-cart-tests](./selenium/saucedemo-cart-tests/) | UI cart flow automation for SauceDemo using Selenium WebDriver |
 
 ---
@@ -75,6 +75,7 @@ Tools:
 - JavaScript
 - Playwright
 - Playwright Test Runner
+- Node.js
 
 ---
 
@@ -98,6 +99,7 @@ Tools:
 - Cypress
 - Cypress Test Runner
 - Mochawesome
+- Node.js
 
 ---
 
@@ -119,8 +121,7 @@ Tools:
 - JavaScript
 - Selenium WebDriver
 - Mocha
-- ChromeDriver
-- Node.js assert
+- Node.js
 
 ---
 
