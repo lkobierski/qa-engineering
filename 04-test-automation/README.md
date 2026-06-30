@@ -15,8 +15,6 @@ This section is organized into separate automation areas:
 | Cypress | [saucedemo-regression-tests](./cypress/saucedemo-regression-tests/) | UI regression tests for SauceDemo |
 | Selenium | [saucedemo-cart-tests](./selenium/saucedemo-cart-tests/) | UI cart flow automation for SauceDemo using Selenium WebDriver |
 
----
-
 ## Automation Goals
 
 The main goals of this section are to demonstrate:
@@ -33,8 +31,6 @@ The main goals of this section are to demonstrate:
 - readable and maintainable test code
 - test execution documentation
 
----
-
 ## Test Types
 
 The automation examples include:
@@ -47,16 +43,12 @@ The automation examples include:
 - API response validation
 - UI validation
 
----
-
 ## Applications Under Test
 
 | Application / API | Purpose |
 |---|---|
 | SauceDemo | UI automation practice |
 | Reqres | API automation practice |
-
----
 
 ### Playwright - SauceDemo UI Tests
 
@@ -76,8 +68,6 @@ Tools:
 - Playwright
 - Playwright Test Runner
 - Node.js
-
----
 
 ### Cypress - SauceDemo Regression Tests
 
@@ -100,8 +90,6 @@ Tools:
 - Cypress Test Runner
 - Mochawesome
 - Node.js
-
----
 
 ### Selenium - SauceDemo Shopping Cart Tests
 

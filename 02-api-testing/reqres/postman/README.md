@@ -12,9 +12,8 @@ https://reqres.in
 
 | File | Description |
 |---|---|
-| collection/reqres-api-collection.json | Postman collection with API requests and test scripts |
-| environment/reqres-environment.json | Postman environment with variables used by the collection |
-
+| [Postman collection](./collection/reqres-api-collection.json) | Postman collection with API requests and test scripts |
+| [Postman environment](./environment/reqres-environment.json) | Postman environment with variables used by the collection |
 ---
 
 ## Requirements
@@ -23,7 +22,6 @@ To run these API tests, the following tool is required:
 
 - Postman
 
----
 
 ## Environment Variables
 
@@ -38,8 +36,6 @@ The collection uses the following environment variables:
 | validPassword | Password used for successful login |
 | registerPassword | Password used for successful registration |
 | apiKey | API key required by Reqres |
-
----
 
 ## How to Import
 
@@ -59,15 +55,11 @@ environment/reqres-environment.json
 
 5. Select `Reqres Environment` as the active environment
 
----
-
 ## API Key
 
 Reqres requires an API key to execute requests.
 
 Before running the collection, update the `apiKey` variable in the environment.
-
----
 
 ## How to Run Tests
 
@@ -77,8 +69,6 @@ Before running the collection, update the `apiKey` variable in the environment.
 4. Select `Reqres Environment`
 5. Run the full collection
 6. Verify that all tests pass
-
----
 
 ## Expected Result
 
@@ -95,8 +85,6 @@ Current test coverage includes:
 - JSON response validation
 - Required field validation
 
----
-
 ## Test Results
 
 Latest test execution results are stored in:
@@ -104,8 +92,6 @@ Latest test execution results are stored in:
 ```text
 ../test-results/reqres-postman-test-results.md
 ```
-
----
 
 ## Notes
 

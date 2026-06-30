@@ -6,17 +6,13 @@ API under test:
 
 https://reqres.in
 
----
-
-# Base URL
+## Base URL
 
 ```text
 https://reqres.in/api
 ```
 
----
-
-# Endpoint Overview
+## Endpoint Overview
 
 | Area | Method | Endpoint | Description |
 |---|---|---|---|
@@ -31,9 +27,7 @@ https://reqres.in/api
 | Resources | GET | /unknown | Get resource list |
 | Resources | GET | /unknown/{id} | Get single resource |
 
----
-
-# Expected Status Codes
+## Expected Status Codes
 
 | Status Code | Meaning | Example |
 |---|---|---|
@@ -43,9 +37,7 @@ https://reqres.in/api
 | 400 | Bad Request | Missing password or invalid request |
 | 404 | Not Found | Non-existing user or resource |
 
----
-
-# Example Request Bodies
+## Example Request Bodies
 
 ## Create User
 
@@ -91,9 +83,7 @@ https://reqres.in/api
 }
 ```
 
----
-
-# Response Validation Points
+## Response Validation Points
 
 During API testing, the following response elements should be verified:
 
@@ -108,9 +98,7 @@ During API testing, the following response elements should be verified:
 - Behavior for invalid IDs
 - Behavior for missing required fields
 
----
-
-# Example JSON Fields to Validate
+## Example JSON Fields to Validate
 
 ## User Object
 
@@ -144,9 +132,7 @@ During API testing, the following response elements should be verified:
 |---|---|
 | error | string |
 
----
-
-# Negative Scenarios to Cover
+## Negative Scenarios to Cover
 
 - Requesting non-existing user
 - Requesting non-existing resource
@@ -158,7 +144,7 @@ During API testing, the following response elements should be verified:
 
 ---
 
-# Risks / Notes
+## Risks / Notes
 
 - Reqres is a public demo API, so created or updated data is not permanently stored.
 - Some endpoints simulate successful operations without real database persistence.

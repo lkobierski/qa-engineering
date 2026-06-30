@@ -14,8 +14,6 @@ The purpose of this section is to demonstrate practical API testing skills using
 | [postman](./postman/) | Postman resources |
 | [test-scenarios](./test-scenarios/reqres-api-test-scenario.md) | API test scenarios |
 
----
-
 ## Scope
 
 This section focuses on:
@@ -30,8 +28,6 @@ This section focuses on:
 - Postman collection execution
 - test result documentation
 
----
-
 ## Tools
 
 | Area | Tool |
@@ -40,8 +36,6 @@ This section focuses on:
 | API Documentation | Markdown |
 | Test Execution | Postman Collection Runner |
 | Version Control | Git, GitHub |
-
----
 
 ## Test Coverage
 

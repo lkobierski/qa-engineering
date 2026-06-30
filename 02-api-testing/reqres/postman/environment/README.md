@@ -10,8 +10,6 @@ The environment file contains variables used by the Postman collection, such as 
 
 [Open Reqres Environment JSON](./reqres-environment.json)
 
----
-
 ## Environment Variables
 
 | Variable | Description |
@@ -23,8 +21,6 @@ The environment file contains variables used by the Postman collection, such as 
 | validPassword | Password used for successful login |
 | registerPassword | Password used for successful registration |
 | apiKey | API key required by Reqres |
-
----
 
 ## API Key Note
 
