@@ -39,7 +39,7 @@ https://reqres.in/api
 
 ## Example Request Bodies
 
-## Create User
+### Create User
 
 ```json
 {
@@ -48,7 +48,7 @@ https://reqres.in/api
 }
 ```
 
-## Update User
+### Update User
 
 ```json
 {
@@ -57,7 +57,7 @@ https://reqres.in/api
 }
 ```
 
-## Login
+### Login
 
 ```json
 {
@@ -66,7 +66,7 @@ https://reqres.in/api
 }
 ```
 
-## Login Without Password
+### Login Without Password
 
 ```json
 {
@@ -74,7 +74,7 @@ https://reqres.in/api
 }
 ```
 
-## Register
+### Register
 
 ```json
 {
@@ -100,7 +100,7 @@ During API testing, the following response elements should be verified:
 
 ## Example JSON Fields to Validate
 
-## User Object
+### User Object
 
 | Field | Expected Type |
 |---|---|
@@ -110,7 +110,7 @@ During API testing, the following response elements should be verified:
 | last_name | string |
 | avatar | string |
 
-## Create / Update User Response
+### Create / Update User Response
 
 | Field | Expected Type |
 |---|---|
@@ -120,19 +120,19 @@ During API testing, the following response elements should be verified:
 | createdAt | string |
 | updatedAt | string |
 
-## Authentication Response
+### Authentication Response
 
 | Field | Expected Type |
 |---|---|
 | token | string |
 
-## Error Response
+### Error Response
 
 | Field | Expected Type |
 |---|---|
 | error | string |
 
-## Negative Scenarios to Cover
+### Negative Scenarios to Cover
 
 - Requesting non-existing user
 - Requesting non-existing resource
