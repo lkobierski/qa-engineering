@@ -39,8 +39,6 @@ Automated API tests focus on:
 | Test Runner | Playwright Test |
 | Version Control | Git, GitHub |
 
----
-
 ## Test Scope
 
 This project will cover selected Reqres endpoints:
