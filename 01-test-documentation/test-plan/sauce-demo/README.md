@@ -109,11 +109,3 @@ Testing activities may be completed when:
 | standard_user | secret_sauce |
 | locked_out_user | secret_sauce |
 | problem_user | secret_sauce |
-
----
-
-## Status
-
-Document version: 1.0  
-Testing type: Manual QA  
-Project status: In Progress
