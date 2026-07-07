@@ -30,6 +30,8 @@ Automated API tests focus on:
 | [tests/auth.spec.js](/tests/auth.spec.js) | Successful login and login without password |
 
 ## Test Results
+| Test File | Description |
+|---|---|
 | [playwright-report](/tests/auth.spec.js) | Detailed HTML test raport from Playwright |
 
 
