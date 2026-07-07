@@ -24,8 +24,6 @@ The following areas will be tested:
 - Error messages
 - UI consistency
 
----
-
 ## 3. Test Types
 
 The following testing types will be performed:
@@ -37,7 +35,6 @@ The following testing types will be performed:
 - Negative Testing
 - UI Testing
 - Validation Testing
----
 
 ## 4. Features to be Tested
 
@@ -51,8 +48,6 @@ The following testing types will be performed:
 | Navigation | Navigation between application pages |
 | Error Handling | Proper display of validation and error messages |
 
----
-
 # 5. Test Environment
 
 | Component | Details |
@@ -62,8 +57,6 @@ The following testing types will be performed:
 | Browser | Google Chrome |
 | Operating System | Windows 11 |
 | Test Type | Manual Testing |
-
----
 
 ## 6. Test Strategy
 
@@ -78,8 +71,6 @@ The strategy includes:
 
 Priority will be given to critical functionalities such as authentication and checkout process.
 
----
-
 ## 7. Entry Criteria
 
 Testing activities may begin when:
@@ -89,8 +80,6 @@ Testing activities may begin when:
 - test data is prepared
 - testing scope is defined
 
----
-
 ## 8. Exit Criteria
 
 Testing activities may be completed when:
@@ -99,8 +88,6 @@ Testing activities may be completed when:
 - critical defects are documented
 - major functionalities are verified
 - test results are reviewed
-
----
 
 ## 9. Data
 

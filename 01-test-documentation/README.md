@@ -16,8 +16,6 @@ The goal of this section is to demonstrate practical software testing skills, te
 | [exploratory-testing](./exploratory-testing/sauce-demo) | Exploratory testing notes |
 | [bug-reports](./bug-reports/sauce-demo) | Bug reports |
 
----
-
 ## Scope
 
 This section includes:
@@ -30,8 +28,6 @@ This section includes:
 
 All documents are based on realistic testing scenarios and business flows.
 
----
-
 ## Testing Types
 
 The following testing types are covered:
@@ -42,8 +38,6 @@ The following testing types are covered:
 - Exploratory Testing
 - Negative Testing
 - UI Testing
-
----
 
 ## Main Testing Areas
 
@@ -57,8 +51,6 @@ The testing documentation focuses on:
 - Error Handling
 - UI Validation
 - Functional Testing
-
----
 
 ## Test Design Techniques
 
