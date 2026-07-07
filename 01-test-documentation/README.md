@@ -50,7 +50,6 @@ The testing documentation focuses on:
 - User Workflows
 - Error Handling
 - UI Validation
-- Functional Testing
 
 ## Test Design Techniques
 

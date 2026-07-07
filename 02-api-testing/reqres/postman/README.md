@@ -12,7 +12,7 @@ https://reqres.in
 
 | File | Description |
 |---|---|
-| [Postman collection](./collection/reqres-api-collection.json) | Postman collection with API requests and test scripts |
+| [Postman collection](./collection/reqres-collection.json) | Postman collection with API requests and test scripts |
 | [Postman environment](./environment/reqres-environment.json) | Postman environment with variables used by the collection |
 ---
 
