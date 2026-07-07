@@ -133,4 +133,4 @@ The generated HTML report contains detailed performance results, including respo
 
 
 ## Test Result Screenshot
-![JMeter ReqRes Test Screenshot](./attachments/jmeter-reqres-test-results.png)
+![JMeter ReqRes Test Screenshot](/attachments/jmeter-reqres-test-results.png)
