@@ -16,7 +16,7 @@ The repository is organized into separate sections, where each section focuses o
 | [02-api-testing](./02-api-testing/reqres/) | API testing documentation and Postman resources |
 | [03-database-testing](./03-database-testing/) | SQL practice and database testing examples |
 | [04-test-automation](./04-test-automation/) | API automation and automated tests using Playwright, Cypress and Selenium |
-| [05-performance-testing](./05-performance-testing/) | Performance testing examples |
+| [05-performance-testing](./05-performance-testing/) | Performance testing examples using JMeter |
 | [06-ci-cd](./06-ci-cd/) | CI/CD examples using GitHub Actions |
 | [assets](./assets/) | Images and supporting portfolio assets |
 
@@ -25,6 +25,7 @@ The repository is organized into separate sections, where each section focuses o
 - Functional testing
 - Regression testing
 - Exploratory testing
+- Performance testing
 - API testing
 - SQL requests
 - UI test automation
@@ -45,6 +46,7 @@ The repository is organized into separate sections, where each section focuses o
 | Test Documentation | Markdown |
 | API Testing | Postman, Reqres |
 | API Automation | Playwright |
+| Performance Testing | JMeter |
 | UI Automation | Playwright, Cypress, Selenium WebDriver |
 | Test Runners | Playwright Test Runner, Cypress Test Runner, Mocha |
 | Reporting | Playwright HTML Report, Mochawesome, terminal test reports |
