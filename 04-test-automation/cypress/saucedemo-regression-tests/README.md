@@ -13,6 +13,11 @@ This project covers regression tests for the most important user flows in SauceD
 
 The purpose of this project is to verify that critical application functionality still works correctly after changes.
 
+| Section | Description |
+|---|---|
+| [Cypress Tests](./cypress/e2e) | Automated regression tests created with Cypress |
+
+
 ## Application under test
 
 SauceDemo:
