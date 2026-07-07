@@ -20,7 +20,7 @@ The model contains the following tables:
 
 ---
 
-## customers
+### customers
 
 Stores basic customer information.
 
@@ -41,9 +41,7 @@ inactive
 blocked
 ```
 
----
-
-## products
+### products
 
 Stores product catalog information.
 
@@ -56,9 +54,8 @@ Stores product catalog information.
 | `stock_quantity` | INTEGER | Available product stock |
 | `is_active` | BOOLEAN | Product availability flag |
 
----
 
-## orders
+### orders
 
 Stores customer order data.
 
@@ -80,9 +77,8 @@ cancelled
 refunded
 ```
 
----
 
-## order_items
+### order_items
 
 Stores products included in each order.
 
@@ -94,9 +90,8 @@ Stores products included in each order.
 | `quantity` | INTEGER | Product quantity in order |
 | `unit_price` | DECIMAL | Product price at the time of order |
 
----
 
-## payments
+### payments
 
 Stores payment data related to orders.
 
@@ -128,17 +123,3 @@ refunded
 | `orders.order_id` → `order_items.order_id` | One order can have many order items |
 | `products.product_id` → `order_items.product_id` | One product can appear in many order items |
 | `orders.order_id` → `payments.order_id` | One order can have one or more payment records |
-
----
-
-## QA Usage
-
-This schema can be used to practice SQL queries for:
-
-- checking required fields
-- finding duplicate records
-- validating relationships between tables
-- verifying order totals
-- checking payment consistency
-- validating allowed statuses
-- supporting manual and automated test execution
