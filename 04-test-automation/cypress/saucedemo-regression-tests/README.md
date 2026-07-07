@@ -95,16 +95,6 @@ Example command:
 npm test
 ```
 
-## Test artifacts
-
-Cypress may generate videos, screenshots and reports:
-
-```text
-cypress/videos/
-cypress/screenshots/
-cypress/reports/
-```
-
 ## Test data
 
 Test data is stored in:

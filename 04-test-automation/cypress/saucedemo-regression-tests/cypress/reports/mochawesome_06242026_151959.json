@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-06-24T13:19:56.382Z",
+    "end": "2026-06-24T13:19:59.051Z",
+    "duration": 2669,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bb9d0296-d4d8-42fa-8db4-01cf8e2a98d6",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login-regression.cy.js",
+      "file": "cypress\\e2e\\login-regression.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7176768b-f56b-49d2-a538-7c198fc8be60",
+          "title": "SauceDemo Login Regression",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should login successfully with valid credentials",
+              "fullTitle": "SauceDemo Login Regression should login successfully with valid credentials",
+              "timedOut": null,
+              "duration": 1024,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login(testData.users.standardUser.username, testData.users.standardUser.password);\ncy.url().should('include', '/inventory.html');\ncy.get('[data-test=\"title\"]').should('have.text', 'Products');",
+              "err": {},
+              "uuid": "4997fb38-1153-409e-9eb5-6ad301e8030a",
+              "parentUUID": "7176768b-f56b-49d2-a538-7c198fc8be60",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should show error for locked out user",
+              "fullTitle": "SauceDemo Login Regression should show error for locked out user",
+              "timedOut": null,
+              "duration": 767,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login(testData.users.lockedOutUser.username, testData.users.lockedOutUser.password);\ncy.get('[data-test=\"error\"]').should('have.text', testData.messages.lockedOutUserError);",
+              "err": {},
+              "uuid": "1c0f7307-5021-408d-a032-d8a5f3d7f580",
+              "parentUUID": "7176768b-f56b-49d2-a538-7c198fc8be60",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "fullTitle": "SauceDemo Login Regression should show error for invalid credentials",
+              "timedOut": null,
+              "duration": 807,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login(testData.users.invalidUser.username, testData.users.invalidUser.password);\ncy.get('[data-test=\"error\"]').should('have.text', testData.messages.invalidCredentialsError);",
+              "err": {},
+              "uuid": "7c1bc4c5-1734-41de-895b-cb222bb69cf9",
+              "parentUUID": "7176768b-f56b-49d2-a538-7c198fc8be60",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4997fb38-1153-409e-9eb5-6ad301e8030a",
+            "1c0f7307-5021-408d-a032-d8a5f3d7f580",
+            "7c1bc4c5-1734-41de-895b-cb222bb69cf9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2598,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.3.2"
+    }
+  }
+}
