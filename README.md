@@ -52,5 +52,5 @@ The repository is organized into separate sections, where each section focuses o
 | Database Testing | SQL |
 | Version Control | Git, GitHub |
 | CI/CD | GitHub Actions |
-| Other | Node.js, JavaScript, Chrome DevTools, Visual Studio Code, GitBash |
+| Other | Node.js, JavaScript, Browser DevTools, Visual Studio Code, PowerShell, NPM, GitBash |
 
