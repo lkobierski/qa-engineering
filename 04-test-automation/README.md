@@ -117,6 +117,4 @@ Tools:
 
 Each automation project contains its own README with setup instructions, test scope and execution commands.
 
-Generated dependencies and test artifacts such as `node_modules/`, reports, videos and screenshots should not be committed to the repository.
-
 This section is focused on practical QA automation skills rather than advanced framework engineering.

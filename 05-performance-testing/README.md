@@ -25,7 +25,15 @@ This section focuses on:
 - reviewing throughput and error rate
 - documenting performance test results
 
----
+## Test Target
+
+The examples are based on the public Reqres API.
+
+Covered endpoints:
+
+- `GET /api/users?page=2`
+- `GET /api/users/2`
+- `POST /api/users`
 
 ## Tools
 
@@ -36,15 +44,5 @@ This section focuses on:
 | Documentation | Markdown |
 | Version Control | Git, GitHub |
 
----
 
-## Test Target
-
-The examples are based on the public Reqres API.
-
-Covered endpoints:
-
-- `GET /api/users?page=2`
-- `GET /api/users/2`
-- `POST /api/users`
 
