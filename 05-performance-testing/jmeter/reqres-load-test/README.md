@@ -22,8 +22,13 @@ The test plan covers selected Reqres API endpoints:
 
 The JMeter test plan is available here:
 
-[test-plan/reqres-load-test.jmx](./test-plan/reqres-load-test.jmx)
+|[reqres-load-test.jmx](./test-plan/reqres-load-test.jmx)|
 
+## Test Results
+
+Test result files are available here:
+
+|[test results](./results)|
 
 ## Test Configuration
 
@@ -73,6 +78,12 @@ On macOS/Linux:
 ./jmeter
 ```
 
+## API Key
+
+Reqres requires an API key to execute requests.
+
+Before running the tests, update the `x-api-key` variable.
+
 
 ## How to Use This Project
 
@@ -106,7 +117,8 @@ Where:
 | `-n` | runs JMeter in non-GUI mode |
 | `-t` | path to the JMeter test plan |
 | `-l` | path where raw test results will be saved |
-
+| `-e` | generate HTML report |
+| `-o` | path for HTML report |
 ---
 
 
@@ -118,3 +130,7 @@ results/jmeter-html-report/index.html
 ```
 
 The generated HTML report contains detailed performance results, including response times, throughput, error rate and request statistics.
+
+
+## Test Result Screenshot
+![JMeter ReqRes Test Screenshot](./attachments/jmeter-reqres-test-results.png)
