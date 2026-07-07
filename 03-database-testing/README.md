@@ -11,7 +11,7 @@ The purpose of this section is to demonstrate practical database testing skills,
 | Section | Content |
 |---|---|
 | [schema](./schema/ecommerce-schema.md) | Simplified e-commerce database schema used for SQL testing examples |
-| [sql-basics](./sql-basics/) | Basic SQL queries for selecting, filtering and aggregating data |
+| [sql-queries](./sql-queries/) | Basic SQL queries for selecting, filtering and aggregating data |
 | [data-validation](./data-validation/) | SQL checks for NULL values, duplicates and data consistency issues |
 | [joins](./joins/customer-orders-joins.sql) | SQL JOIN examples for validating relationships between tables |
 | [test-scenarios](./test-scenarios/database-test-scenarios.md) | Practical database test scenarios from a QA perspective |
@@ -61,9 +61,9 @@ Database test scenarios are documented in:
 
 | File | Purpose |
 |---|---|
-| [select-queries.sql](./sql-basics/select-queries.sql) | Basic SELECT queries used to review key records and columns |
-| [filtering-queries.sql](./sql-basics/filtering-queries.sql) | WHERE, IN, BETWEEN, ORDER BY and LIMIT examples |
-| [aggregate-queries.sql](./sql-basics/aggregate-queries.sql) | COUNT, SUM, AVG, MIN, MAX, GROUP BY and HAVING examples |
+| [select-queries.sql](./sql-queries/select-queries.sql) | Basic SELECT queries used to review key records and columns |
+| [filtering-queries.sql](./sql-queries/filtering-queries.sql) | WHERE, IN, BETWEEN, ORDER BY and LIMIT examples |
+| [aggregate-queries.sql](./sql-queries/aggregate-queries.sql) | COUNT, SUM, AVG, MIN, MAX, GROUP BY and HAVING examples |
 
 ### Data validation
 
