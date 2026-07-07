@@ -20,15 +20,15 @@ The test plan covers selected Reqres API endpoints:
 
 ## Test Plan
 
-The JMeter test plan is available here:
+The test plan is available here:
 
-| [reqres-load-test.jmx](./test-plan/reqres-load-test.jmx) |
+| [reqres-load-test.jmx](./test-plan/reqres-load-test.jmx) | ReqRes tests created with JMeter
 
 ## Test Results
 
 Test result files are available here:
 
-| [test results](./results) |
+| [test results](./results) | .jtl and .html detailed test reports |
 
 ## Test Configuration
 
