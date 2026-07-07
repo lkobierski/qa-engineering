@@ -18,7 +18,6 @@ The repository is organized into separate sections, where each section focuses o
 | [04-test-automation](./04-test-automation/) | API automation and automated tests using Playwright, Cypress and Selenium |
 | [05-performance-testing](./05-performance-testing/) | Performance testing examples using JMeter |
 | [06-ci-cd](./06-ci-cd/) | CI/CD examples using GitHub Actions |
-| [assets](./assets/) | Images and supporting portfolio assets |
 
 ## Skills Demonstrated
 
