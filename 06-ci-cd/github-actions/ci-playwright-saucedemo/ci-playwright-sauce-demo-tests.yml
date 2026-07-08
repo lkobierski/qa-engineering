@@ -1,4 +1,4 @@
-name: SauceDemo Playwright Tests
+name: CI - SauceDemo Playwright Tests
 
 on:
   push:
