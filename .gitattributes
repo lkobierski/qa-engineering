@@ -5,7 +5,7 @@
 *.jmx linguist-detectable=true
 
 # Test reports and generated output
-*.html linguist-detectable=true
+*.html linguist-detectable=false
 *.css linguist-detectable=true
 *.json linguist-detectable=true
 *.jtl linguist-detectable=true
