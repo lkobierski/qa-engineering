@@ -43,6 +43,7 @@ The repository is organized into separate sections, where each section focuses o
 | Area | Tools / Technologies |
 |---|---|
 | Test Documentation | Markdown |
+| Programming Language | JavaScript |
 | API Testing | Postman |
 | API Automation | Playwright |
 | Performance Testing | JMeter |
@@ -52,5 +53,5 @@ The repository is organized into separate sections, where each section focuses o
 | Database Testing | SQL |
 | Version Control | Git, GitHub |
 | CI/CD | GitHub Actions |
-| Other | Node.js, JavaScript, Browser DevTools, Visual Studio Code, PowerShell, NPM, GitBash |
+| Other | Node.js, NPM, Browser DevTools, Visual Studio Code, PowerShell, GitBash |
 
