@@ -43,6 +43,7 @@ jobs:
         run: npm test
         env:
           REQRES_API_KEY: ${{ secrets.REQRES_API_KEY }}
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
