@@ -1,0 +1,46 @@
+name: SauceDemo Playwright Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  saucedemo-playwright-tests:
+    name: Run SauceDemo Playwright Tests
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: 04-test-automation/playwright/saucedemo-ui-tests
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 04-test-automation/playwright/saucedemo-ui-tests/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright tests
+        run: npm test
+
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: saucedemo-playwright-report
+          path: 04-test-automation/playwright/saucedemo-ui-tests/playwright-report/
+          retention-days: 90

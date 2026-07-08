@@ -48,7 +48,7 @@ The following testing types will be performed:
 | Navigation | Navigation between application pages |
 | Error Handling | Proper display of validation and error messages |
 
-# 5. Test Environment
+## 5. Test Environment
 
 | Component | Details |
 |---|---|
