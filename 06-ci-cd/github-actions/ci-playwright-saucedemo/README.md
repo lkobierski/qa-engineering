@@ -45,3 +45,6 @@ npm ci
 npx playwright install --with-deps
 npx playwright test
 ```
+
+## Screenshot
+![CI SauceDemo Tests GitHub Actions Screenshot](./attachments/ci-saucedemo-tests.png)

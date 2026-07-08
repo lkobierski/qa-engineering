@@ -46,3 +46,7 @@ The deployed report is generated from:
 ```text
 04-test-automation/api-automation/reqres-api-tests/playwright-report
 ```
+
+## Screenshot
+![CI/CD ReqRes Test Report Deploy Screenshot](./attachments/ci-cd-reqres-test-report.png)
+
