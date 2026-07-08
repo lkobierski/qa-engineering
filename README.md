@@ -35,7 +35,7 @@ The repository is organized into separate sections, where each section focuses o
 - Page Object Model
 - Test data management
 - Git and GitHub
-- CI/CD understanding
+- CI/CD workflow creation
 - QA documentation
 
 ## Tools and Technologies

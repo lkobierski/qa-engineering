@@ -81,13 +81,7 @@ npm install
 Run all tests:
 
 ```bash
-npx playwright test
-```
-
-Run selected test file:
-
-```bash
-npx playwright test tests/users.spec.js
+npm test
 ```
 
 Open HTML report:

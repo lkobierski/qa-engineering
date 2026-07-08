@@ -1,0 +1,65 @@
+name: CI/CD - Reqres API Report Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: reqres-api-report-pages
+  cancel-in-progress: false
+
+jobs:
+  test-and-build-report:
+    name: Run API tests and prepare report
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    defaults:
+      run:
+        working-directory: 04-test-automation/api-automation/reqres-api-tests
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: 04-test-automation/api-automation/reqres-api-tests/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run API tests
+        run: npm test
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload API test report for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 04-test-automation/api-automation/reqres-api-tests/playwright-report
+
+  deploy-report:
+    name: Deploy API test report to GitHub Pages
+    needs: test-and-build-report
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy API test report
+        id: deployment
+        uses: actions/deploy-pages@v4

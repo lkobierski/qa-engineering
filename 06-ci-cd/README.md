@@ -10,9 +10,8 @@ The purpose of this section is to demonstrate basic understanding of continuous 
 
 | Section | Content |
 |---|---|
-| [github-actions](./github-actions/) | GitHub Actions workflow examples |
-| [playwright-tests-workflow](./github-actions/playwright-tests-workflow/) | Workflow for running Playwright UI tests |
-
+| CI | [Playwright Test SauceDemo](./github-actions/ci-playwright-saucedemo) | GitHub Actions CI workflow for SauceDemo tests using Playwright |
+| CI/CD | [Playwright Test Report ReqRes](./github-actions/ci-cd-reqres-api) | GitHub Actions CI/CD workflow for deploying ReqResAPI HTML test report |
 ---
 
 ## Scope
@@ -21,10 +20,11 @@ This section focuses on:
 
 - understanding basic CI/CD concepts
 - creating a GitHub Actions workflow
-- running automated tests in CI
+- running automated tests in CI/CD
 - installing project dependencies
-- executing Playwright tests automatically
-- reviewing CI results in GitHub
+- executing Playwright and Cypress tests automatically
+- reviewing CI/CD results in GitHub
+- deploying HTML Cypress test report using GitHub Actions
 
 ---
 
@@ -33,26 +33,7 @@ This section focuses on:
 | Area | Tool |
 |---|---|
 | CI/CD | GitHub Actions |
-| Test Automation | Playwright |
+| Test Automation | Playwright, Cypress |
+| Deployment | GitHub Pages |
 | Runtime | Node.js |
 | Version Control | Git, GitHub |
-
----
-
-## Workflow Example
-
-The included workflow runs Playwright tests from the existing automation project:
-
-```text
-04-test-automation/playwright/saucedemo-ui-tests
-```
-
-The workflow can be used as an example of how automated tests can be executed after code changes.
-
----
-
-## Notes
-
-This section is focused on basic CI/CD usage from a QA perspective.
-
-The goal is not to demonstrate advanced deployment pipelines, but to show how automated tests can be integrated into a GitHub Actions workflow.
