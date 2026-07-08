@@ -1,0 +1,17 @@
+# Documentation files should not dominate language statistics
+*.md linguist-documentation
+
+# JMeter files
+*.jmx linguist-detectable=true
+
+# Test reports and generated output
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.json linguist-detectable=true
+*.jtl linguist-detectable=true
+
+# GitHub Actions YAML files are infrastructure, not main project language
+.github/workflows/*.yml linguist-detectable=true
+
+# Keep JavaScript as detectable project language
+*.js linguist-detectable=true
