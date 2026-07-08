@@ -21,6 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
+    env:
+      REQRES_API_KEY: ${{ secrets.REQRES_API_KEY }}
+
     defaults:
       run:
         working-directory: 04-test-automation/api-automation/reqres-api-tests
@@ -41,8 +44,6 @@ jobs:
 
       - name: Run API tests
         run: npm test
-        env:
-          REQRES_API_KEY: ${{ secrets.REQRES_API_KEY }}
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
