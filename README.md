@@ -6,6 +6,8 @@
 ![k6](https://img.shields.io/badge/k6-performance-purple)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-blue)
 
+![Reqres API CI/CD](https://github.com/lkobierski/qa-engineering/actions/workflows/ci-cd-reqres-api-test-report.yml/badge.svg)
+
 # QA Engineering Portfolio
 
 This repository contains my QA portfolio projects focused on practical software testing skills and real-world QA workflows.
