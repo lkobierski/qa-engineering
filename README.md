@@ -46,11 +46,11 @@ The repository is organized into separate sections, where each section focuses o
 | Programming Language | JavaScript |
 | API Testing | Postman |
 | API Automation | Playwright |
-| Performance Testing | JMeter |
 | UI Automation | Playwright, Cypress, Selenium WebDriver |
+| Performance Testing | JMeter |
+| Database Testing | SQL |
 | Test Runners | Playwright Test Runner, Cypress Test Runner, Mocha |
 | Reporting | Playwright HTML Report, Mochawesome, terminal test reports |
-| Database Testing | SQL |
 | Version Control | Git, GitHub |
 | CI/CD | GitHub Actions |
 | Other | Node.js, NPM, Browser DevTools, Visual Studio Code, PowerShell, GitHub Pages, GitBash |
