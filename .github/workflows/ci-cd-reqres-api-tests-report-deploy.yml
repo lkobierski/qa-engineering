@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '04-test-automation/api-automation/reqres-api-tests/**'
+      - '.github/workflows/ci-cd-reqres-api-test-report.yml'
   workflow_dispatch:
 
 permissions:

@@ -1,13 +1,18 @@
-name: SauceDemo Playwright Tests
+name: CI - SauceDemo Playwright Tests
 
 on:
   push:
     branches:
       - main
+    paths:
+      - '04-test-automation/playwright/saucedemo-ui-tests/**'
+      - '.github/workflows/ci-playwright-sauce-demo-tests.yml'
   pull_request:
     branches:
       - main
-
+    paths:
+      - '04-test-automation/playwright/saucedemo-ui-tests/**'
+      - '.github/workflows/ci-playwright-sauce-demo-tests.yml'
 jobs:
   saucedemo-playwright-tests:
     name: Run SauceDemo Playwright Tests
