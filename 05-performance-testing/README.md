@@ -11,7 +11,7 @@ The purpose of this section is to demonstrate basic performance testing skills, 
 | Tool | Section | Content |
 |---|---|---|
 | Apache JMeter | [reqres-load-test](./jmeter/reqres-load-test/) | Basic API load test for the Reqres API |
-| Grafana k6 | [jsonplaceholder-load-test](./k6/jsonplaceholder-api-test) | Basic API load test for the JSONPlaceholder API |
+| Grafana k6 | [jsonplaceholder-load-test](./k6/jsonplaceholder-load-test) | Basic API load test for the JSONPlaceholder API |
 
 
 ## Scope
