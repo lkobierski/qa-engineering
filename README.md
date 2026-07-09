@@ -1,5 +1,5 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=for-the-badge&logo=javascript)
-![Playwright](https://img.shields.io/badge/Playwright-333333?style=for-the-badge&logo=playwright)
+![Playwright Logo](https://playwright.dev/img/playwright-logo.svg)[Playwright](https://img.shields.io/badge/Playwright-333333?style=for-the-badge&logo=playwright)
 ![Cypress](https://img.shields.io/badge/Cypress-333333?style=for-the-badge&logo=cypress)
 ![Selenium](https://img.shields.io/badge/Selenium-333333?style=for-the-badge&logo=selenium)
 ![Postman](https://img.shields.io/badge/Postman-333333?style=for-the-badge&logo=postman)
