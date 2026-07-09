@@ -46,5 +46,11 @@ npx playwright install --with-deps
 npx playwright test
 ```
 
+## Deployed page
+The page with Playwright test report deployed by the CI/CD workflow is available here:
+| Link | URL |
+|---|---|
+|[CI/CD HTML Test Report URL](https://lkobierski.github.io/qa-engineering/) | lkobierski.github.io/qa-engineering/ |
+
 ## Screenshot
 ![CI SauceDemo Tests GitHub Actions Screenshot](./attachments/ci-saucedemo-tests.png)
