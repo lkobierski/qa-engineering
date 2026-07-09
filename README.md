@@ -1,3 +1,11 @@
+![JavaScript](https://img.shields.io/badge/JavaScript-tests-yellow)
+![Playwright](https://img.shields.io/badge/Playwright-API%20%26%20UI-brightgreen)
+![Cypress](https://img.shields.io/badge/Cypress-regression-black)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
+![JMeter](https://img.shields.io/badge/JMeter-performance-red)
+![k6](https://img.shields.io/badge/k6-performance-purple)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-blue)
+
 # QA Engineering Portfolio
 
 This repository contains my QA portfolio projects focused on practical software testing skills and real-world QA workflows.
@@ -23,17 +31,17 @@ The repository is organized into separate sections, where each section focuses o
 
 - Functional testing
 - Regression testing
-- Exploratory testing
 - Performance testing
+- Exploratory testing
 - API testing
-- SQL queries
 - UI test automation
 - API test automation
+- SQL queries
 - Test case design
 - Test design techniques
-- Bug reporting
-- Page Object Model
 - Test data management
+- Page Object Model
+- Bug reporting
 - Git and GitHub
 - CI/CD workflows
 - QA documentation
