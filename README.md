@@ -26,7 +26,7 @@ The repository is organized into separate sections, where each section focuses o
 - Exploratory testing
 - Performance testing
 - API testing
-- SQL requests
+- SQL queries
 - UI test automation
 - API test automation
 - Test case design
@@ -35,7 +35,7 @@ The repository is organized into separate sections, where each section focuses o
 - Page Object Model
 - Test data management
 - Git and GitHub
-- CI/CD workflow creation
+- CI/CD workflows
 - QA documentation
 
 ## Tools and Technologies
