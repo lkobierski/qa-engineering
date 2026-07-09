@@ -51,6 +51,15 @@ The repository is organized into separate sections, where each section focuses o
 - CI/CD workflows
 - QA documentation
 
+## Tested Applications and APIs
+
+| System | Used For |
+|---|---|
+| [SauceDemo.com](https://saucedemo.com/) | Manual testing, UI automation with Playwright, Cypress and Selenium WebDriver |
+| [Reqres.in API](https://reqres.in/) | API testing, Postman collection, Playwright API automation and CI/CD report deployment |
+| [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) | k6 API load testing example |
+| E-commerce database model | SQL and database testing examples |
+
 ## Tools and Technologies
 
 | Area | Tools / Technologies |

@@ -1,4 +1,4 @@
-# CD - Playwright Report to GitHub Pages
+# CI/CD - Playwright Report to GitHub Pages
 
 This project contains a GitHub Actions CD workflow that publishes a Playwright HTML report to GitHub Pages.
 
@@ -46,6 +46,12 @@ The deployed report is generated from:
 ```text
 04-test-automation/api-automation/reqres-api-tests/playwright-report
 ```
+
+## Deployed page
+The page with Playwright test report deployed by the CI/CD workflow is available here:
+| Link | URL |
+|---|---|
+|[CI/CD HTML Test Report URL](https://lkobierski.github.io/qa-engineering/) | lkobierski.github.io/qa-engineering/ |
 
 ## Screenshot
 ![CI/CD ReqRes Test Report Deploy Screenshot](./attachments/ci-cd-reqres-test-report.png)
