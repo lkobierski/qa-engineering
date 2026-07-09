@@ -1,0 +1,9 @@
+{
+  "name": "jsonplaceholder-api-load-test",
+  "version": "1.0.0",
+  "description": "Basic API load testing project for JSONPlaceholder using k6.",
+  "scripts": {
+    "test": "k6 run tests/jsonplaceholder-api-load-test.js",
+    "test:smoke": "k6 run --vus 1 --duration 10s tests/jsonplaceholder-api-load-test.js"
+  }
+}

@@ -2,23 +2,23 @@
 
 This section contains performance testing examples created as part of a QA engineering portfolio.
 
-The purpose of this section is to demonstrate basic performance testing skills using Apache JMeter, including load test planning, API performance checks, and result documentation.
+The purpose of this section is to demonstrate basic performance testing skills, including load test planning, API performance checks, and result documentation.
 
 ---
 
 ## Repository Structure
 
-| Section | Content |
+| Tool | Section | Content |
 |---|---|
-| [reqres-load-test with JMeter](./jmeter/reqres-load-test/) | Basic API load test for the Reqres API |
-
+| Apache JMeter | [reqres-load-test](./jmeter/reqres-load-test/) | Basic API load test for the Reqres API |
+| Grafana k6 | [jsonplaceholder-load-test](./k6/jsonplaceholder-api-test) | Basic API load test for the JSONPlaceholder API |
 ---
 
 ## Scope
 
 This section focuses on:
 
-- creating a basic JMeter test plan
+- creating a basic test plan
 - testing API response times under load
 - validating response status codes
 - measuring average response time
@@ -27,20 +27,25 @@ This section focuses on:
 
 ## Test Target
 
-The examples are based on the public Reqres API.
+The examples are based on the public API.
 
-Covered endpoints:
-
+### ReqRes API
 - `GET /api/users?page=2`
 - `GET /api/users/2`
 - `POST /api/users`
+
+### JSONPlaceholder API
+- `GET /posts`
+- `GET /posts/1`
+- `POST /posts`
+
 
 ## Tools
 
 | Area | Tool |
 |---|---|
-| Performance Testing | Apache JMeter |
-| Test Target | Reqres API |
+| Performance Testing | Apache JMeter, Grafana k6 |
+| Test Target | Reqres API, JSONPlaceholder |
 | Documentation | Markdown |
 | Version Control | Git, GitHub |
 
