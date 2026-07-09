@@ -1,12 +1,16 @@
-![JavaScript](https://img.shields.io/badge/JavaScript-tests-yellow)
-![Playwright](https://img.shields.io/badge/Playwright-API%20%26%20UI-brightgreen)
-![Cypress](https://img.shields.io/badge/Cypress-regression-black)
-![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
-![JMeter](https://img.shields.io/badge/JMeter-performance-red)
-![k6](https://img.shields.io/badge/k6-performance-purple)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=for-the-badge&logo=javascript)
+![Playwright](https://img.shields.io/badge/Playwright-333333?style=for-the-badge&logo=playwright)
+![Cypress](https://img.shields.io/badge/Cypress-333333?style=for-the-badge&logo=cypress)
+![Selenium](https://img.shields.io/badge/Selenium-333333?style=for-the-badge&logo=selenium)
+![Postman](https://img.shields.io/badge/Postman-333333?style=for-the-badge&logo=postman)
+![SQL](https://img.shields.io/badge/SQL-333333?style=for-the-badge)
+![Apache JMeter](https://img.shields.io/badge/Apache%20JMeter-333333?style=for-the-badge&logo=apachejmeter)
+![Grafana k6](https://img.shields.io/badge/Grafana%20k6-333333?style=for-the-badge&logo=k6)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-333333?style=for-the-badge&logo=githubactions)
 
-![Reqres API CI/CD](https://github.com/lkobierski/qa-engineering/actions/workflows/ci-cd-reqres-api-test-report.yml/badge.svg)
+![Reqres API CI](https://github.com/lkobierski/qa-engineering/actions/workflows/ci-playwright-sauce-demo-tests.yml/badge.svg)
+![Reqres API CI/CD](https://github.com/lkobierski/qa-engineering/actions/workflows/ci-cd-reqres-api-tests-report-deploy.yml/badge.svg)
+
 
 # QA Engineering Portfolio
 
