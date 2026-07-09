@@ -4,7 +4,6 @@ This section contains performance testing examples created as part of a QA engin
 
 The purpose of this section is to demonstrate basic performance testing skills, including load test planning, API performance checks, and result documentation.
 
----
 
 ## Repository Structure
 

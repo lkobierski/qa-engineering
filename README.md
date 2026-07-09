@@ -47,7 +47,7 @@ The repository is organized into separate sections, where each section focuses o
 | API Testing | Postman |
 | API Automation | Playwright |
 | UI Automation | Playwright, Cypress, Selenium WebDriver |
-| Performance Testing | JMeter |
+| Performance Testing | Grafana k6, Apache JMeter |
 | Database Testing | SQL |
 | Test Runners | Playwright Test Runner, Cypress Test Runner, Mocha |
 | Reporting | Playwright HTML Report, Mochawesome, terminal test reports |
