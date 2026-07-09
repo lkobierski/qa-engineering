@@ -6,6 +6,13 @@ The purpose of this section is to demonstrate basic understanding of continuous 
 
 ---
 
+## Workflow Status
+
+| Workflow | Status |
+|---|---|
+| SauceDemo Playwright CI | ![SauceDemo Playwright CI](https://github.com/lkobierski/qa-engineering/actions/workflows/ci-playwright-sauce-demo-tests.yml/badge.svg) |
+| Reqres API CI/CD | ![Reqres API CI/CD](https://github.com/lkobierski/qa-engineering/actions/workflows/ci-cd-reqres-api-tests-report-deploy.yml/badge.svg) |
+
 ## Repository Structure
 
 | Section | Content |
