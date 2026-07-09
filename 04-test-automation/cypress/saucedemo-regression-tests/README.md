@@ -13,13 +13,6 @@ This project covers regression tests for the most important user flows in SauceD
 
 The purpose of this project is to verify that critical application functionality still works correctly after changes.
 
-## Tests
-
-| Section | Description |
-|---|---|
-| [Cypress Tests](./cypress/e2e) | Automated regression tests created with Cypress |
-
-
 ## Application under test
 
 SauceDemo:
@@ -27,15 +20,6 @@ SauceDemo:
 ```text
 https://www.saucedemo.com/
 ```
-
-## Tech stack
-
-- JavaScript
-- Cypress
-- Cypress Test Runner
-- Mochawesome reporter
-- Cypress custom commands
-- Fixtures for test data
 
 ## Test coverage
 
@@ -64,6 +48,43 @@ https://www.saucedemo.com/
 - should require postal code during checkout
 - should complete checkout successfully
 
+## Project Structure
+
+### Tests
+
+| File | Description |
+|---|---|
+| [cypress/e2e/login-regression.cy.js](./cypress/e2e/login-regression.cy.js) | Cypress regression tests covering SauceDemo login scenarios |
+| [cypress/e2e/inventory-regression.cy.js](./cypress/e2e/inventory-regression.cy.js) | Cypress regression tests covering inventory page functionality and product actions |
+| [cypress/e2e/cart-regression.cy.js](./cypress/e2e/cart-regression.cy.js) | Cypress regression tests covering cart functionality, including adding and removing products |
+| [cypress/e2e/checkout-regression.cy.js](./cypress/e2e/checkout-regression.cy.js) | Cypress regression tests covering checkout flow validation |
+
+### Test Data
+
+| File | Description |
+|---|---|
+| [cypress/fixtures/test-data.json](./cypress/fixtures/test-data.json) | Contains test data used in Cypress tests, including user credentials, product details and checkout data |
+
+### Support Files
+
+| File | Description |
+|---|---|
+| [cypress/support/commands.js](./cypress/support/commands.js) | Contains custom Cypress commands used across test files, such as login and product actions |
+
+### Configuration
+
+| File | Description |
+|---|---|
+| [cypress.config.js](./cypress.config.js) | Cypress configuration file defining base URL, spec pattern, reporter and test execution settings |
+
+### Reports and Results
+
+| Directory | Description |
+|---|---|
+| [cypress/reports](./cypress/reports/) | Generated Mochawesome test reports |
+
+
+
 ## Installation
 
 Install dependencies:
@@ -84,30 +105,6 @@ Open Cypress Test Runner:
 
 ```bash
 npm run test:open
-```
-
-## HTML report
-
-This project uses Mochawesome reporter.
-
-After running tests, the HTML report is generated in:
-
-```text
-cypress/reports/
-```
-
-Example command:
-
-```bash
-npm test
-```
-
-## Test data
-
-Test data is stored in:
-
-```text
-cypress/fixtures/test-data.json
 ```
 
 ## Custom commands

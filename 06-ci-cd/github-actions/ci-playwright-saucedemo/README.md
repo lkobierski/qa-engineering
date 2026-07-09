@@ -8,14 +8,12 @@ The workflow is designed for the existing Playwright project:
 04-test-automation/playwright/saucedemo-ui-tests
 ```
 
----
-
 ## Workflow File
 
 The workflow file is available here:
 | File | Purpose |
 |---|---|
-| [ci-playwright-sauce-demo-tests.yml](./ci-playwright-sauce-demo-tests.yml) | Run Playwright tests after Pull or Push |
+| [ci-playwright-sauce-demo-tests.yml](./ci-playwright-sauce-demo-tests.yml) | Installs dependencies and runs Playwright tests on pull requests and pushes |
 
 
 ## What the Workflow Does
@@ -36,7 +34,6 @@ The workflow runs on:
 - push to `main`
 - pull request to `main`
 
----
 
 ## How to run
 

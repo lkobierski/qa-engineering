@@ -1,6 +1,6 @@
 # Performance Testing
 
-This section contains performance testing examples created as part of a QA engineering portfolio.
+This section contains performance testing examples.
 
 The purpose of this section is to demonstrate basic performance testing skills, including load test planning, API performance checks, and result documentation.
 
@@ -12,6 +12,14 @@ The purpose of this section is to demonstrate basic performance testing skills, 
 | Apache JMeter | [reqres-load-test](./jmeter/reqres-load-test/) | Basic API load test for the Reqres API |
 | Grafana k6 | [jsonplaceholder-load-test](./k6/jsonplaceholder-load-test) | Basic API load test for the JSONPlaceholder API |
 
+## Tools
+
+| Area | Tool |
+|---|---|
+| Performance Testing | Apache JMeter, Grafana k6 |
+| Test Target | Reqres API, JSONPlaceholder |
+| Documentation | Markdown |
+| Version Control | Git, GitHub |
 
 ## Scope
 
@@ -37,16 +45,6 @@ The examples are based on the public API.
 - `GET /posts`
 - `GET /posts/1`
 - `POST /posts`
-
-
-## Tools
-
-| Area | Tool |
-|---|---|
-| Performance Testing | Apache JMeter, Grafana k6 |
-| Test Target | Reqres API, JSONPlaceholder |
-| Documentation | Markdown |
-| Version Control | Git, GitHub |
 
 
 

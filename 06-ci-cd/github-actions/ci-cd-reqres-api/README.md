@@ -8,8 +8,6 @@ This project contains a GitHub Actions CD workflow that publishes a Playwright H
 04-test-automation/api-automation/reqres-api-tests
 ```
 
----
-
 ## Workflow File
 
 | File | Purpose |
@@ -17,11 +15,11 @@ This project contains a GitHub Actions CD workflow that publishes a Playwright H
 | [ci-cd-reqres-api-test-report.yml](./ci-cd-reqres-api-test-report.yml) | Runs API tests and deploys the generated report to GitHub Pages |
 
 
-## What It Does
+## What the Workflow Does
 
 | Part | Description |
 |---|---|
-| CI | Installs dependencies and runs Reqres API tests |
+| CI | Installs dependencies and runs ReqRes API tests |
 | CD | Publishes the generated Playwright HTML report to GitHub Pages |
 
 ## Trigger

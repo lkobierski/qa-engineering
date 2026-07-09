@@ -34,17 +34,6 @@ Automated API tests focus on:
 |---|---|
 | [playwright-report](./playwright-report) | Detailed HTML test raport from Playwright |
 
-
-## Tools
-
-| Area | Tool |
-|---|---|
-| API Automation | Playwright API Testing |
-| Programming Language | JavaScript |
-| Runtime | Node.js |
-| Test Runner | Playwright Test |
-| Version Control | Git, GitHub |
-
 ## Test Scope
 
 This project will cover selected Reqres endpoints:
@@ -103,6 +92,17 @@ Manual API testing documentation and Postman collection are available in:
 ```text
 02-api-testing/reqres/
 ```
+
+## Tools
+
+| Area | Tool |
+|---|---|
+| API Automation | Playwright API Testing |
+| Programming Language | JavaScript |
+| Runtime | Node.js |
+| Test Runner | Playwright Test |
+| Version Control | Git, GitHub |
+
 
 ## Attachments
 

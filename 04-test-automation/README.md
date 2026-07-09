@@ -1,19 +1,17 @@
 # Test Automation
 
-This section contains automated tests created as part of a QA engineering portfolio.
-
----
+This section contains automated tests.
 
 ## Scope
 
 This section is organized into separate automation areas:
 
-| Area | Project | Purpose |
-|---|---|---|
-| API Automation | [reqres-api-tests](./api-automation/reqres-api-tests/) | Automated API tests for ReqRes using Playwright |
-| Playwright | [saucedemo-ui-tests](./playwright/saucedemo-ui-tests/) | UI automation for login and inventory flows for SauceDemo |
-| Cypress | [saucedemo-regression-tests](./cypress/saucedemo-regression-tests/) | UI regression tests for SauceDemo |
-| Selenium | [saucedemo-cart-tests](./selenium/saucedemo-cart-tests/) | UI cart flow automation for SauceDemo using Selenium WebDriver |
+| Project | Area | Framework | Purpose |
+|---|---|---|---|
+| [reqres-api-tests](./api-automation/reqres-api-tests/) | API Test Automation | Playwright | Automated API tests for ReqRes |
+| [saucedemo-ui-tests](./playwright/saucedemo-ui-tests/) | UI Test Automation | Playwright | UI automation for login and inventory flows for SauceDemo |
+| [saucedemo-regression-tests](./cypress/saucedemo-regression-tests/) | Regression Test Automation | Cypress | Regression tests for SauceDemo |
+| [saucedemo-cart-tests](./selenium/saucedemo-cart-tests/) | UI Test Automation | Selenium WebDriver | UI cart flow automation for SauceDemo |
 
 ## Automation Goals
 
@@ -47,8 +45,8 @@ The automation examples include:
 
 | Application / API | Purpose |
 |---|---|
-| SauceDemo | UI automation practice |
-| Reqres | API automation practice |
+| SauceDemo.com | UI automation practice |
+| ReqRes.in | API automation practice |
 
 ### Playwright - SauceDemo UI Tests
 
@@ -111,10 +109,7 @@ Tools:
 - Mocha
 - Node.js
 
----
 
 ## Notes
 
 Each automation project contains its own README with setup instructions, test scope and execution commands.
-
-This section is focused on practical QA automation skills rather than advanced framework engineering.

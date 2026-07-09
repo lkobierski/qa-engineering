@@ -1,10 +1,9 @@
 # Database Testing
 
-This section contains SQL practice and database testing examples created as part of a QA engineering portfolio.
+This section contains SQL practice and database testing examples.
 
 The purpose of this section is to demonstrate practical database testing skills, including data validation, SQL queries, joins, consistency checks, and database-related test scenarios.
 
----
 
 ## Repository Structure
 
@@ -14,7 +13,7 @@ The purpose of this section is to demonstrate practical database testing skills,
 | [sql-queries](./sql-queries/) | Basic SQL queries for selecting, filtering and aggregating data |
 | [data-validation](./data-validation/) | SQL checks for NULL values, duplicates and data consistency issues |
 | [joins](./joins/customer-orders-joins.sql) | SQL JOIN examples for validating relationships between tables |
-| [test-scenarios](./test-scenarios/database-test-scenarios.md) | Practical database test scenarios from a QA perspective |
+| [test-scenarios](./test-scenarios/database-test-scenarios.md) | Database test scenarios from a QA perspective |
 
 
 ## Database Model
@@ -46,13 +45,6 @@ The following database testing areas are covered:
 - joins between related tables
 - order and payment validation scenarios
 - customer and product data validation scenarios
-
-
-## Test Scenarios
-
-Database test scenarios are documented in:
-
-[database-test-scenarios.md](./test-scenarios/database-test-scenarios.md)
 
 
 ## SQL Query Examples

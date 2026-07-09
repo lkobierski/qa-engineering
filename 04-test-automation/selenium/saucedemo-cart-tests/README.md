@@ -2,9 +2,11 @@
 
 ## Project overview 
 
-The `saucedemo-cart-tests` project contains automated UI tests for the SauceDemo cart flow created with Selenium WebDriver.
+Automated UI tests for the SauceDemo cart flow created with Selenium WebDriver.
 
-## Shopping Cart Tests
+The project uses the Page Object Model pattern to separate test logic from page selectors and actions.
+
+## Test Scope
 
 - login before cart
 - adding a single product to cart
@@ -21,6 +23,30 @@ The `saucedemo-cart-tests` project contains automated UI tests for the SauceDemo
 - ChromeDriver
 - Node.js assert
 - Page Object Model
+
+## Project Structure
+
+### Test Data
+
+| File | Description |
+|---|---|
+| [data/test-data.js](./data/test-data.js) | Contains test data used in Selenium tests, including user credentials and product details |
+
+### Page Objects
+
+| File | Description |
+|---|---|
+| [pages/login.page.js](./pages/login.page.js) | Page Object Model class for the SauceDemo login page |
+| [pages/inventory.page.js](./pages/inventory.page.js) | Page Object Model class for the inventory page, including product selection and cart actions |
+| [pages/cart.page.js](./pages/cart.page.js) | Page Object Model class for the shopping cart page, including cart item validation, product removal and continue shopping action |
+
+
+### Tests
+
+| File | Description |
+|---|---|
+| [tests/cart.test.js](./tests/cart.test.js) | Mocha test suite covering SauceDemo shopping cart scenarios, including adding products, verifying cart details, removing products and continuing shopping |
+
 
 ## How to run
 

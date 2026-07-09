@@ -1,8 +1,10 @@
 # Test Documentation
 
-This section contains manual QA documentation created for testing practice and portfolio purposes.
+This section contains manual QA documentation.
 
 The goal of this section is to demonstrate practical software testing skills, test design techniques, documentation quality, and understanding of QA workflows.
+
+All documents are based on realistic testing scenarios and business flows.
 
 ---
 
@@ -26,7 +28,6 @@ This section includes:
 - Exploratory Testing Notes
 - Bug Reports
 
-All documents are based on realistic testing scenarios and business flows.
 
 ## Testing Types
 

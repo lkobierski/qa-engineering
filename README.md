@@ -15,7 +15,7 @@
 # QA Engineering Portfolio
 
 
-This repository contains my projects focused on practical software testing skills and real-world QA workflows.
+This repository contains my projects showcasing practical software testing skills and real-world QA workflows.
 
 ## About
 
@@ -25,40 +25,36 @@ The repository is organized into separate sections, where each section focuses o
 
 | Section | Description |
 |---|---|
-| [01-test-documentation](./01-test-documentation/) | Manual test cases, exploratory testing notes, bug reports and QA documentation |
+| [01-test-documentation](./01-test-documentation/) | Manual test cases, exploratory testing, bug reports and QA documentation |
 | [02-api-testing](./02-api-testing/reqres/) | API testing documentation and Postman resources |
 | [03-database-testing](./03-database-testing/) | SQL practice and database testing examples |
 | [04-test-automation](./04-test-automation/) | API automation and automated tests using Playwright, Cypress and Selenium WebDriver |
-| [05-performance-testing](./05-performance-testing/) | Performance testing examples using JMeter |
-| [06-ci-cd](./06-ci-cd/) | CI/CD examples using GitHub Actions |
+| [05-performance-testing](./05-performance-testing/) | Performance testing examples using Grafana k6 and Apache JMeter |
+| [06-ci-cd](./06-ci-cd/) | CI/CD examples using GitHub Actions and GitHub Pages |
 
 ## Skills Demonstrated
 
 - Functional testing
 - Regression testing
 - Performance testing
-- Exploratory testing
+- Database testing
 - API testing
+- UI testing
+- Exploratory testing<br><br>
 - UI test automation
 - API test automation
-- SQL queries
+- Automated test reporting
+- Page Object Model<br><br>
 - Test case design
 - Test design techniques
 - Test data management
-- Page Object Model
-- Bug reporting
-- Git and GitHub
+- Test planning and QA documentation
+- Bug reporting<br><br>
+- SQL queries
 - CI/CD workflows
-- QA documentation
-
-## Tested Applications and APIs
-
-| System | Used For |
-|---|---|
-| [SauceDemo.com](https://saucedemo.com/) | Manual testing, UI automation with Playwright, Cypress and Selenium WebDriver |
-| [Reqres.in API](https://reqres.in/) | API testing, Postman collection, Playwright API automation and CI/CD report deployment |
-| [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) | k6 API load testing example |
-| E-commerce database model | SQL and database testing examples |
+- Git and GitHub
+- GitHub Actions
+- GitHub Pages deployment
 
 ## Tools and Technologies
 
@@ -72,8 +68,20 @@ The repository is organized into separate sections, where each section focuses o
 | Performance Testing | Grafana k6, Apache JMeter |
 | Database Testing | SQL |
 | Test Runners | Playwright Test Runner, Cypress Test Runner, Mocha |
-| Reporting | Playwright HTML Report, Mochawesome, terminal test reports |
+| Reporting | HTML reports, Mochawesome, terminal test reports |
 | Version Control | Git, GitHub |
-| CI/CD | GitHub Actions |
-| Other | Node.js, NPM, Browser DevTools, Visual Studio Code, PowerShell, GitHub Pages, GitBash |
+| CI/CD | GitHub Actions, GitHub Pages |
+| Runtime | Node.js, npm |
+| Other | Browser DevTools, Visual Studio Code, PowerShell, Git Bash |
+
+## Tested Applications and APIs
+
+| System | Used For |
+|---|---|
+| [SauceDemo.com](https://saucedemo.com/) | Manual testing, UI automation with Playwright, Cypress and Selenium WebDriver |
+| [Reqres.in API](https://reqres.in/) | API testing, Postman collection, Playwright API automation and CI/CD report deployment |
+| [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) | k6 API load testing |
+| E-commerce database model | SQL and database testing |
+
+
 
