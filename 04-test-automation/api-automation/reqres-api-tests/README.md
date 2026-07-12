@@ -32,7 +32,7 @@ Automated API tests focus on:
 ## Test Results
 | Test File | Description |
 |---|---|
-| [playwright-report](./playwright-report) | Detailed HTML test raport from Playwright |
+| [playwright-report](./playwright-report) | Detailed HTML test report from Playwright |
 
 ## Test Scope
 
@@ -97,10 +97,10 @@ Manual API testing documentation and Postman collection are available in:
 
 | Area | Tool |
 |---|---|
-| API Automation | Playwright API Testing |
+| API Automation | Playwright |
 | Programming Language | JavaScript |
 | Runtime | Node.js |
-| Test Runner | Playwright Test |
+| Test Runner | Playwright Test Runner |
 | Version Control | Git, GitHub |
 
 

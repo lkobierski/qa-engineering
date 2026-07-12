@@ -1,4 +1,4 @@
-# SauceDemo Cypress TypeScript Docker Tests
+# SauceDemo - Cypress Automated Tests in Docker using TypeScript
 
 This project contains automated end-to-end tests for the SauceDemo application using Cypress and TypeScript.
 
@@ -36,12 +36,6 @@ The purpose of this project is to demonstrate:
 |---|---|
 | [cypress/types/user.ts](./cypress/types/user.ts) | TypeScript definitions for users and fixture data |
 
-### Support Files
-
-| File | Description |
-|---|---|
-| [cypress/support/e2e.ts](./cypress/support/e2e.ts) | Cypress support file loaded before test execution |
-
 ### Configuration
 
 | File | Description |
@@ -73,8 +67,7 @@ The purpose of this project is to demonstrate:
 
 For local execution:
 
-- Node.js
-- npm
+- Node.js, npm
 
 For Docker execution:
 

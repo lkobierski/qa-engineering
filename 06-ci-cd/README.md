@@ -2,7 +2,7 @@
 
 This section contains CI/CD examples.
 
-The purpose of this section is to demonstrate understanding of continuous integration / continous deployment from a QA perspective, using GitHub Actions to run automated tests.
+The purpose of this section is to demonstrate understanding of continuous integration / continuous deployment from a QA perspective, using GitHub Actions to run automated tests.
 
 
 ## Repository Structure
