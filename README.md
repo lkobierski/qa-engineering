@@ -86,4 +86,4 @@ The repository is organized into separate sections, where each section focuses o
 
 ## Notes
 
-Private API keys are not hardcoded in the repository.
+API keys are not hardcoded in the repository.
