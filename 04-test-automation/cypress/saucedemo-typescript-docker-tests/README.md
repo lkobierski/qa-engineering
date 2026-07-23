@@ -13,7 +13,7 @@ The purpose of this project is to demonstrate:
 - Typed fixture data
 - Reusable helper functions
 - Dockerized test execution
-- Running the same test suite in a consistent environment
+- Running the same test suite in a consistent environment using Docker
 
 ## Project Structure
 

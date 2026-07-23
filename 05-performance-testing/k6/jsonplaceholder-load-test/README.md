@@ -1,4 +1,4 @@
-# k6 Summary Report - JSONPlaceholder API Load Test
+# JSONPlaceholder API Load Test using k6
 
 A basic API load testing project built with k6. It validates selected JSONPlaceholder endpoints under a light load, generates text and HTML reports, and can optionally stream performance metrics to Prometheus for exploration in Grafana.
 
@@ -6,6 +6,8 @@ A basic API load testing project built with k6. It validates selected JSONPlaceh
 
 The objective of this test was to perform a basic API load test using k6 and verify that selected JSONPlaceholder endpoints respond correctly under light load.
 
+
+## Project Overview
 | File | Description |
 |---|---|
 |[jsonplaceholder-api-load-test.js](./tests/jsonplaceholder-api-load-test.js) | JSONPlaceholder API tests |
@@ -16,7 +18,6 @@ Detailed results are available here:
 |---|---|
 |[k6-summary.txt](./results/k6-summary.txt) | Text file test report |
 |[k6-html-report.html](./results/k6-html-report.html) | HTML test report |
-
 
 ## Scope
 
