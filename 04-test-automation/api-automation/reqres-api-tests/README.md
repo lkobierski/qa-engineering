@@ -5,12 +5,7 @@ Automated API tests for the Reqres public REST API created with Playwright and J
 This project is a code-based continuation of the Reqres API testing work prepared in Postman.
 
 ---
-
-## Application Under Test
-
-```text
-https://reqres.in
-```
+## Project Overview
 
 Automated API tests focus on:
 
@@ -21,6 +16,12 @@ Automated API tests focus on:
 - authentication endpoint validation
 - reusable test structure
 - test execution from command line
+
+## Application Under Test
+
+```text
+https://reqres.in
+```
 
 ## Test Coverage
 

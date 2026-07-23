@@ -4,7 +4,7 @@ This project contains automated end-to-end tests for the SauceDemo application u
 
 The test suite can be executed locally or inside a Docker container to provide a consistent and isolated test environment.
 
-## Purpose
+## Project Overview
 
 The purpose of this project is to demonstrate:
 

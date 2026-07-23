@@ -36,7 +36,7 @@ https://jsonplaceholder.typicode.com
 | Virtual users | 10 |
 | Duration | 30 seconds |
 | Think time | 1 second |
-| Script | `tests/jsonplaceholder-load-test.js` |
+| Script | `tests/jsonplaceholder-api-load-test.js` |
 
 ## Test Scenario
 
@@ -71,21 +71,6 @@ The test is considered successful when:
 - request failure rate is below 1%
 - 95% of requests complete below 1000 ms
 - the test finishes without critical errors
-
-## Execution
-
-Run smoke test:
-
-```bash
-npm run test:smoke
-```
-
-Run load test:
-
-```bash
-npm test
-```
-
 
 ## Notes
 

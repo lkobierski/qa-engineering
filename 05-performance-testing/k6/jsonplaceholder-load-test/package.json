@@ -1,9 +1,17 @@
 {
   "name": "jsonplaceholder-api-load-test",
   "version": "1.0.0",
-  "description": "Basic API load testing project for JSONPlaceholder using k6.",
+  "private": true,
+  "description": "Basic JSONPlaceholder API load testing project using k6, Prometheus, Grafana, and Docker Compose.",
   "scripts": {
     "test": "k6 run tests/jsonplaceholder-api-load-test.js",
-    "test:smoke": "k6 run --vus 1 --duration 10s tests/jsonplaceholder-api-load-test.js"
+    "test:logs": "k6 run --console-output results/k6.log tests/jsonplaceholder-api-load-test.js",
+    "test:grafana": "cross-env K6_PROMETHEUS_RW_SERVER_URL=http://localhost:9090/api/v1/write K6_PROMETHEUS_RW_TREND_STATS=\"p(95),p(99),min,max\" k6 run -o experimental-prometheus-rw --tag testid=jsonplaceholder-local tests/jsonplaceholder-api-load-test.js",
+    "infra:up": "docker compose up -d",
+    "infra:down": "docker compose down",
+    "infra:status": "docker compose ps"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3"
   }
 }
